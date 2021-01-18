@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Ольга  Забелина](https://up.htmlacademy.ru/htmlcss/30/user/1179819).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Кривокора] (https://htmlacademy.ru/profile/krivokora).
 
 ---
 
