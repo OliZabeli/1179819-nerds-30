@@ -1,5 +1,5 @@
 <<!DOCTYPE html>
-  <html lang="ru">
+  <html class="page" lang="ru">
 
   <head>
     <meta charset="utf-8">
@@ -8,16 +8,20 @@
     <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="favicon/180.png">
     <link rel="manifest" href="manifest.webmanifest">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
 
   <body>
 
-    <header>
-      <nav>
-        <a>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
           <img src="img/logo-nerds.svg" width="159.87" height="65.02" alt="Логотип дизайн-студии">
         </a>
-        <ul>
+        <ul class="site-navigation">
           <li><a href="#">Студия</a></li>
           <li><a href="#">Клиенты</a></li>
           <li><a href="catalog.html">Магазин</a></li>
@@ -27,74 +31,68 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="description">
         <h2>Совсем немного о нас</h2>
         <b>Долго, дорого, скрупулёзно.</b>
         <p>Математически выверенный дизайн
           для вашего сайта или приложения</p>
-        <a href="#">Узнать больше</a>
+        <a class="button" href="#">Узнать больше</a>
         <img src="img/img-index.png" width="486" height="315" alt="фоновая картинка">
-        </ul>
       </section>
-      <section>
+      <section class="services">
         <h2>Услуги</h2>
-        <img scr="img/services-first.png" width="300" height="146" alt="картинка">
-        <ul>
-          <li>
+        <ul class="services-list">
+          <li class="services-item">
             <b>ВЕБ-САЙТЫ</b>
             <p>Мир никогда не будет прежним
               после того как увидит ваш сайт!</p>
+            <a class="button" href="#">Заказать</a>
           </li>
-          <a href="#">Заказать</a>
-        </ul>
-        <ul>
-          <img scr="img/services-second.png" width="300" height="146" alt="картинка">
-          <li>
+          <li class="services-item">
             <b>ПРИЛОЖЕНИЯ</b>
             <p>Покорите топ-10 приложений
               в App-store и Google play</p>
+            <a class="button" href="#">Заказать</a>
           </li>
-          <a href="#">Заказать</a>
-        </ul>
-        <ul>
-          <img scr="img/services-three.png" width="300" height="146" alt="картинка">
-          <li>
+          <li class="services-item">
             <b>ПРЕЗЕНТАЦИИ</b>
             <p>Вы даже не подозреваете,насколько вы изумительны!</p>
+            <a сlass="button" href="#">Заказать</a>
           </li>
-          <a href="#">Заказать</a>
+
         </ul>
       </section>
-      <section>
+      <section class="about">
         <h2>О нас</h2>
         <b>Мы-маленькая, но гордая дизайн-студия из Краснодара.</b>
         <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
           превыше креатива. Работаем непокладая рук, как роботы.</p>
-        <ul>
-          <b>Выполняем заказы на разработку:</b>
-          <li>Веб-сайтов любой сложности</li>
-          <li>Мобильных приложений для IOS и Android</li>
-          <li>Слайдшоу и видео для корпоративных презентаций</li>
+
+        <b>Выполняем заказы на разработку:</b>
+        <ul class="about-list">
+          <li class="about-item">Веб-сайтов любой сложности</li>
+          <li class="about-item">Мобильных приложений для IOS и Android</li>
+          <li class="about-item">Слайдшоу и видео для корпоративных презентаций</li>
         </ul>
 
         <img src="img/img-nerds.svg" width="360" height="208" alt="Логотип дизайн-студии">
-        <ul>
-          <b>С 2004 года любим точность во всем:</b>
-          <li>
+        <b>С 2004 года любим точность во всем:</b>
+        <ul class="quality-list">
+          <li class="quality-item">
             <b>146%</b>
             <p>Уровень самоотдачи</p>
           </li>
-          <li>
+          <li class="quality-item">
             <b>100%</b>
             <p>Соблюдение сроков</p>
           </li>
-          <li>
+          <li class="quality-item">
             <b>50%</b>
             <p>Минимальная предоплата</p>
           </li>
         </ul>
       </section>
-      <section>
+      <section class="partners">
         <h2>Партнёры</h2>
         <ul>
           <li>
@@ -112,8 +110,8 @@
           </li>
       </section>
     </main>
-    <footer>
-      <section>
+    <footer class="main-footer">
+      <section class="contacts">
         <h2>Контакты</h2>
         <img src="img/map.jpg" width="1440" height="416" alt="карта">
         <img src="img/map-marker.jpg" width="231" height="190" alt="логотип дизайн-студии">
@@ -121,29 +119,29 @@
         <div>
           <b>NЁRDS DESIGN STUDIO</b>
           <address> 191186 г. Санкт-Петербург, Б. Конюшенная, д. 19/8</address>
-          <p>Тел.: <a>+7 (812) 666-02-66</a></p>
-          <a href="#">Напишите нам</a>
+          <p>Тел.: <a class="contacts-phone">+7 (812) 666-02-66</a></p>
+          <a сlass="button" href="#">Напишите нам</a>
         </div>
       </section>
-      <section>
+      <section class="footer-social">
         <h2>Мы в соцсетях</h2>
         <b>Давайте дружить-это выгодно!</b>
         <p>скидка 10% для друзей из социальных сетей</p>
         <ul>
           <li>
-            <a href="#">Вконтакте</a>
+            <a class="social-button" href="#">Вконтакте</a>
             <img src="img/icon-first.png" width="81" height="81" alt="Вконтакте">
             <img src="img/icon-vk.png" width="26.01" height="15" alt="Вконтакте">
           </li>
           <li>
-            <a href="#">Фейсбук</a>
-            <img src="img/icon-second.png" width="81" height="81" alt="Вконтакте">
-            <img src="img/icon-fcb.png" width="26.01" height="15" alt="Вконтакте">
+            <a class="social-button" href=" #">Фейсбук</a>
+            <img src="img/icon-second.png" width="81" height="81" alt="">
+            <img src="img/icon-fcb.png" width="26.01" height="15" alt="">
           </li>
           <li>
-            <a href="#">Инстаграм</a>
-            <img src="img/icon-third.png" width="81" height="81" alt="Вконтакте">
-            <img src="img/icon-insta.png" width="26.01" height="15" alt="Вконтакте">
+            <a class="social-button" href=" #">Инстаграм</a>
+            <img src="img/icon-third.png" width="81" height="81" alt="">
+            <img src="img/icon-insta.png" width="26.01" height="15" alt="">
 
           </li>
         </ul>

@@ -8,7 +8,10 @@
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="favicon/180.png">
   <link rel="manifest" href="manifest.webmanifest">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="normalize.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -32,95 +35,88 @@
     <section>
       <h2>Каталог готовых шаблонов</h2>
       <form method="get" action="https://echo.htmlacademy.ru">
-      </form>
-      <ul>
-        <li>
-          <b>Стоимость:</b>
-        </li>
-        <li><b>Сетка</b></li>
-        <li>
-          <ul>
+        <b>Стоимость:</b>
+        <!-- ползунок -->
+        <b>Сетка</b>
+        <ul>
+
+          <li>
+
             <input type="radio" name="grid" value="adaptive" id="adaptive" checked>
             <label for="adaptive">Адаптивная</label>
-        </li>
-        <li>
-          <input type="radio" name="grid" value="fix" id="fix">
-          <label for="fix">Фиксированная</label>
-        </li>
-        <li>
-          <input type="radio" name="grid" value="rubber" id="rubber">
-          <label for="rubber">Резиновая</label>
-        </li>
-      </ul>
+          </li>
+          <li>
+            <input type="radio" name="grid" value="fix" id="fix">
+            <label for="fix">Фиксированная</label>
+          </li>
+          <li>
+            <input type="radio" name="grid" value="rubber" id="rubber">
+            <label for="rubber">Резиновая</label>
+          </li>
+        </ul>
 
 
-      <li>Особенности:</li>
-      <ul>
-        <li>
-          <input type="checkbox" name="slider" id="slider" checked>
-          <label for="slider">Слайдер</label>
-        </li>
-        <li>
-          <input type="checkbox" name="advantages" id="advantages">
-          <label for="advantages">Блок преимуществ</label>
-        </li>
-        <li>
-          <input type="checkbox" name="news" id="news" checked>
-          <label for="news">Новости</label>
-        </li>
-        <li>
-          <input type="checkbox" name="gallery" id="gallery">
-          <label for="gallery">Галерея</label>
-        </li>
-        <li>
-          <input type="checkbox" name="basket " id="">
-          <label for="basket ">Корзина</label>
-        </li>
+        <b>Особенности:</b>
+        <ul>
+          <li>
+            <input type="checkbox" name="slider" id="slider" checked>
+            <label for="slider">Слайдер</label>
+          </li>
+          <li>
+            <input type="checkbox" name="advantages" id="advantages">
+            <label for="advantages">Блок преимуществ</label>
+          </li>
+          <li>
+            <input type="checkbox" name="news" id="news" checked>
+            <label for="news">Новости</label>
+          </li>
+          <li>
+            <input type="checkbox" name="gallery" id="gallery">
+            <label for="gallery">Галерея</label>
+          </li>
+          <li>
+            <input type="checkbox" name="basket " id="">
+            <label for="basket ">Корзина</label>
+          </li>
 
-      </ul>
-      <button type="submit">Показать</button>
+        </ul>
+        <button type="submit">Показать</button>
       </form>
-      <header>
-        <b>Сортировать:</b>
-        <ul>
-          <li><a href="#">по цене</a></li>
-          <li><a href="#">по типу</a></li>
-          <li><a href="#">по названию</a></li>
-        </ul>
-        <ul>
-          <li></li>
-        </ul>
-        <div>
+      <div>
+        <header>
+          <b>Сортировать:</b>
           <ul>
-            <li>
-              <img src="sedona.jpg" alt="шаблон седона">
-            </li>
-        </div>
-        <li>
-          <div>
+            <li><a href="#">по цене</a></li>
+            <li><a href="#">по типу</a></li>
+            <li><a href="#">по названию</a></li>
+          </ul>
+        </header>
+        <ul>
+          <li>
             <img src="img/img-sedona.jpg" alt="шаблон седона">
-            <img src="img/blok-sedona.png" alt="серый фон седона">
-            <b>sedona</b>
-            <p>Информационный сайт для туристов</p>
-            <a href="#">9900 p</a>
-          </div>
-        </li>
-        <li>
-          <img src="img/img-pink.jpg" alt="шаблон pink">
-        </li>
-        <li>
-          <img src="img/img-barbershop.jpg" alt="шаблон барбершоп">
-        </li>
-        <li>
-          <img src="img/img-mishka.jpg" alt="шаблон mishka">
-        </li>
-        <li>
-          <img src="img/img-aplus.jpg" alt="шаблон aplus">
-        </li>
-        <li>
-          <img src="img/img-kvast.jpg" alt="шаблон kvas">
-        </li>
+            <div>
+              <b>sedona</b>
+              <p>Информационный сайт для туристов</p>
+              <a href="#">9900 p</a>
+            </div>
+          </li>
+          <li>
+            <img src="img/img-pink.jpg" alt="шаблон pink">
+          </li>
+          <li>
+            <img src="img/img-barbershop.jpg" alt="шаблон барбершоп">
+          </li>
+          <li>
+            <img src="img/img-mishka.jpg" alt="шаблон mishka">
+          </li>
+          <li>
+            <img src="img/img-aplus.jpg" alt="шаблон aplus">
+          </li>
+          <li>
+            <img src="img/img-kvast.jpg" alt="шаблон kvas">
+          </li>
         </ul>
+
         <ul>
           <li>
             <a>1</a>
@@ -132,10 +128,10 @@
             <a href="#">3</a>
           </li>
           <li>
-            a href="#">Следующая</a>
+            <a href="#">Следующая</a>
           </li>
         </ul>
-      </header>
+      </div>
     </section>
   </main>
   <footer>
