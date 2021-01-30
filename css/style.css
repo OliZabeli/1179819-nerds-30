@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Roboto";
+        src: url("..fonts/roboto.woff2") format("woff2"),
+         url("..fonts/roboto.woff") format("woff");
+         font-weight: 400;
+         font-style: normal;
+    }
+
+@font-face {
+    font-family: "robotomedium";
+        src: url("..fonts/robotomedium.woff2") format("woff2"),
+        url("..fonts/robotomedium.woff") format("woff");
+        font-weight: 500;
+        font-style: normal;
+    }
+                
+@font-face {
+    font-family: "robotobold";
+        src: url("..fonts/robotobold.woff2") format("woff2"),
+        url("..fonts/robotobold.woff") format("woff");
+        font-weight: 700;
+        font-style: normal;
+                        
+    }    
+/* Variables*/
+:root {
+    --basik-black: #000000;
+    --darkblue:#283136;
+    --white: #FFFFFF;
+    --darkgrey: #444444;
+    --rosered: #FB565A;
+    --lightgrey: #EEEEEE;
+    --darkgrey: #231F20;
+
+}
+/* header*/   
+
+/* description */ 
+
+
+
+
+
+
