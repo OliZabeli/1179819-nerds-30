@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Roboto";
+    font-family: "roboto";
         src: url("..fonts/roboto.woff2") format("woff2"),
          url("..fonts/roboto.woff") format("woff");
          font-weight: 400;
@@ -31,11 +31,39 @@
     --rosered: #FB565A;
     --lightgrey: #EEEEEE;
     --darkgrey: #231F20;
+    --green: #00CA74;
+    --yellow: #EFC849;
 
 }
-/* header*/   
+   
+.body {
+    font-family: "robotomedium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    background color: #EEEEEE;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+}  
 
-/* description */ 
+/* Main navigation */
+.site-navigation {
+    background-color:  #EEEEEE;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: "robotomedium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+/*description */
+.description-list: none;
+}
+
+
 
 
 
