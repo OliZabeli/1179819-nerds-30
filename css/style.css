@@ -30,11 +30,12 @@
     --white: #FFFFFF;
     --darkgrey: #444444;
     --rosered: #FB565A;
-    --lightgrey: #EEEEEE;
+    --estralightgrey: #EEEEEE;
     --darkgrey: #231F20;
     --green: #00CA74;
     --yellow: #EFC849;
-    --grey: #888888;
+    --lightgrey: #888888;
+    --grey: #666666;
 
 }
    
@@ -60,6 +61,8 @@
     line-height: 30px; 
     background color: #EEEEEE;
     list-style: none; 
+    color:  #000000;
+
 }
 
 
@@ -72,21 +75,28 @@ img {
 /*description */
 
 .description p{
-    list-style: none;
+    
+    font-size: 16px;
+    line-height: 24px;
     font-family: Roboto;
     font-weight: 400;
     color:#283136;
+    list-style: none;
+} 
 
-
-.description h2{
+.description b{
     font-style: normal;
     font-weight: 500;
     font-size: 55px;
     line-height: 55px;
-    color: 000000;
-}
+    color: #000000;
+
+    }
 
 /* services*/
+    .services-list {
+        list-style: none;
+    }
 
     .services-item b{
         font-family: Roboto;
@@ -96,7 +106,19 @@ img {
         line-height: 30px;
         color: 000000;
     }
+
+    .services-item p{
+        font-size: 16px;
+        line-height: 24px;
+        font-family: Roboto;
+        font-weight: 400;
+        color:#283136;
+    }
+
+
+
     
+/*about us*/
 
     .about us-item b{
 
@@ -109,17 +131,94 @@ img {
 
     } 
 
-    .quality-itemt {
+    .about us-item p{
+        font-size: 16px;
+        line-height: 24px;
+        font-family: Roboto;
+        font-weight: 400;
+        color:#283136;
+    } 
+
+/*.quality*/
+
+    .quality-item p{
         font-family: Roboto;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 18px;
     } 
+    quality-item b{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 64px;
+        color: 000000;
+    }
 
-    
+    /* Main footer */
 
-        
+/* Contacts */   
+    .contacts-phone {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        color:  #666666;
+    }
+
+/* address */
+    .address  {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        color:  #666666;
+    }
+
+    .footer-social {
+        text-align: center;
+      }
+      
+      .footer-social ul {
+        list-style: none;
+      }
+      
+      .footer-social h2 {
+        font-size: 15px;
+
+    }
+    .social b {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        color: 000000;
+    }
+
+    .social p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color:  #444444;
+
+    }
+
+
+
+
+
+
+/* Social button */
+
+
+
 
 
 
