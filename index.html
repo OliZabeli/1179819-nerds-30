@@ -1,99 +1,105 @@
-<<!DOCTYPE html>
-  <html class="page" lang="ru">
+<!DOCTYPE html>
+<html class="page" lang="ru">
 
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="favicon/180.png">
-    <link rel="manifest" href="manifest.webmanifest">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="normalize.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="normalize.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
 
-  <body class="page-body">
-    <header class="main-header">
-      <nav class="main-navigation">
-        <a class="main-header-logo">
-          <img src="img/logo-nerds.svg" width="159" height="65" alt="Логотип дизайн-студии">
-        </a>
-        <ul class="site-navigation">
-          <li><a href="#">Студия</a></li>
-          <li><a href="#">Клиенты</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="#">Контакты</a></li>
-          <li><a href="#">Корзина</a></li>
+<body class="page-body">
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="img/logo-nerds.svg" width="159" height="65" alt="Логотип дизайн-студии">
+      </a>
+      <div class="main-navigation-wrapper">
+        <div class="main-header-bar">
+          <ul class="site-navigation">
+            <li><a href="#">Студия</a></li>
+            <li><a href="#">Клиенты</a></li>
+            <li><a href="catalog.html">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Корзина</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="description">
+      <h2>Совсем немного о нас</h2>
+      <b class="description">Долго, дорого, скрупулёзно.</b>
+      <p class="description">Математически выверенный дизайн
+        для вашего сайта или приложения</p>
+      <a class="button" href="#">Узнать больше</a>
+      <img src="img/img-index.png" width="486" height="315" alt="фоновая картинка">
+    </section>
+    <div class="index-columns">
+      <section class="services">
+        <h2>Услуги</h2>
+        <ul class="services-list">
+          <li class="services-item">
+            <b class="description">ВЕБ-САЙТЫ</b>
+            <p class="services-item">Мир никогда не будет прежним
+              после того как увидит ваш сайт!</p>
+            <a class="button" href="#">Заказать</a>
+          </li>
+          <li class="services-item">
+            <b class="description">ПРИЛОЖЕНИЯ</b>
+            <p class="services-item">Покорите топ-10 приложений
+              в App-store и Google play</p>
+            <a class="button" href="#">Заказать</a>
+          </li>
+          <li class="services-item">
+            <b class="description">ПРЕЗЕНТАЦИИ</b>
+            <p class="services-item">Вы даже не подозреваете,насколько вы изумительны!</p>
+            <a сlass="button" href="#">Заказать</a>
+          </li>
         </ul>
-      </nav>
-    </header>
-    <main class="container">
-      <section class="description">
-        <h2>Совсем немного о нас</h2>
-        <b class="description">Долго, дорого, скрупулёзно.</b>
-        <p class="description">Математически выверенный дизайн
-          для вашего сайта или приложения</p>
-        <a class="button" href="#">Узнать больше</a>
-        <img src="img/img-index.png" width="486" height="315" alt="фоновая картинка">
       </section>
-      <div class="index-columns">
-        <section class="services">
-          <h2>Услуги</h2>
-          <ul class="services-list">
-            <li class="services-item">
-              <b class="description">ВЕБ-САЙТЫ</b>
-              <p class="services-item">Мир никогда не будет прежним
-                после того как увидит ваш сайт!</p>
-              <a class="button" href="#">Заказать</a>
-            </li>
-            <li class="services-item">
-              <b class="description">ПРИЛОЖЕНИЯ</b>
-              <p class="services-item">Покорите топ-10 приложений
-                в App-store и Google play</p>
-              <a class="button" href="#">Заказать</a>
-            </li>
-            <li class="services-item">
-              <b class="description">ПРЕЗЕНТАЦИИ</b>
-              <p class="services-item">Вы даже не подозреваете,насколько вы изумительны!</p>
-              <a сlass="button" href="#">Заказать</a>
-            </li>
-          </ul>
-        </section>
-      </div>
-      <div class="index-columns">
-        <section class="about us">
-          <h2 class="about us">О нас</h2>
-          <b class="about us">Мы-маленькая, но гордая дизайн-студия из Краснодара.</b>
-          <p class="about us">Исповедуем принципы минимализма и чистоты. Ставим математический расчет
-            превыше креатива. Работаем непокладая рук, как роботы.</p>
+    </div>
+    <div class="index-columns">
+      <section class="about us">
+        <h2 class="about us">О нас</h2>
+        <b class="about us">Мы-маленькая, но гордая дизайн-студия из Краснодара.</b>
+        <p class="about us">Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+          превыше креатива. Работаем непокладая рук, как роботы.</p>
 
-          <b>Выполняем заказы на разработку:</b>
-          <ul class="about us-list">
-            <li class="about us-item">Веб-сайтов любой сложности</li>
-            <li class="about us-item">Мобильных приложений для IOS и Android</li>
-            <li class="about us-item">Слайдшоу и видео для корпоративных презентаций</li>
-          </ul>
+        <b>Выполняем заказы на разработку:</b>
+        <ul class="about us-list">
+          <li class="about us-item">Веб-сайтов любой сложности</li>
+          <li class="about us-item">Мобильных приложений для IOS и Android</li>
+          <li class="about us-item">Слайдшоу и видео для корпоративных презентаций</li>
+        </ul>
 
-          <img src="img/img-nerds.svg" width="360" height="208" alt="Логотип дизайн-студии">
-          <b class="">С 2004 года любим точность во всем:</b>
-          <ul class="quality-list">
-            <li class="quality-item">
-              <b class="quality">146%</b>
-              <p class="quality">Уровень самоотдачи</p>
-            </li>
-            <li class="quality-item">
-              <b>100%</b>
-              <p>Соблюдение сроков</p>
-            </li>
-            <li class="quality-item">
-              <b class="quality">50%</b>
-              <p class="quality">Минимальная предоплата</p>
-            </li>
-          </ul>
-        </section>
-      </div>
+        <img src="img/img-nerds.svg" width="360" height="208" alt="Логотип дизайн-студии">
+        <b class="">С 2004 года любим точность во всем:</b>
+        <ul class="quality-list">
+          <li class="quality-item">
+            <b class="quality">146%</b>
+            <p class="quality">Уровень самоотдачи</p>
+          </li>
+          <li class="quality-item">
+            <b>100%</b>
+            <p>Соблюдение сроков</p>
+          </li>
+          <li class="quality-item">
+            <b class="quality">50%</b>
+            <p class="quality">Минимальная предоплата</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="index-columns">
       <section class="partners">
         <h2>Партнёры</h2>
         <ul>
@@ -111,44 +117,62 @@
             <a href="#"><img scr="img/logo-mishka.svg" alt="Логотип mishka" width="173" height="84"></a>
           </li>
       </section>
-    </main>
-    <footer class="main-footer">
-      <section class="contacts">
-        <h2>Контакты</h2>
-        <img src="img/map.jpg" width="1440" height="416" alt="карта">
-        <img src="img/map-marker.jpg" width="231" height="190" alt="логотип дизайн-студии">
-        <img src="img/blok-adress.png" width="319" height="308" alt="адрес">
-        <div class="modal">
-          <b>NЁRDS DESIGN STUDIO</b>
-          <address class="address"> 191186 г. Санкт-Петербург, Б. Конюшенная, д. 19/8</address>
-          <p>Тел.: <a class="contacts-phone">+7 (812) 666-02-66</a></p>
-          <a class="modal" href="#">Напишите нам</a>
+    </div>
+  </main>
+  <footer class="main-footer">
+    <section class="contacts">
+      <h2>Контакты</h2>
+      <img src="img/map.jpg" width="1440" height="416" alt="карта">
+      <img src="img/map-marker.jpg" width="231" height="190" alt="логотип дизайн-студии">
+      <img src="img/blok-adress.png" width="319" height="308" alt="адрес">
+      <div class="modal">
+        <b>NЁRDS DESIGN STUDIO</b>
+        <address class="address"> 191186 г. Санкт-Петербург, Б. Конюшенная, д. 19/8</address>
+        <p>Тел.: <a class="contacts-phone">+7 (812) 666-02-66</a></p>
+    </section>
+    <section class="modal modal-feedback">
+      <h2>Напишите нам</h2>
+      <p class="modal-feedback">Напишите нам</p>
+      <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
+        <p class="feedback-item"></p>
+        <label for="feedback-name">Ваше имя</label>
+        <input id="feedback-name" type="text" name="name" placeholder="Имя Фамилия">
+        </p>
+        <p class="feedback-email">
+          <label for="feedback-email">Ваш email</label>
+          <input id="appointment-phone" type="tel" name="email" placeholder="email@example.com">
+        </p>
+        <p class="feedback-text">
+          <label for="feedback-text">Текст письма</label>
+          <input id="feedback-text" type="text" name="Text" placeholder="в свободной форме">
+        </p>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+    </section>
+    </div>
+    <section class="footer-social">
+      <h2>Мы в соцсетях</h2>
+      <b class="footer-social">Давайте дружить-это выгодно!</b>
+      <p class="footer-social">скидка 10% для друзей из социальных сетей</p>
+      <ul>
+        <li>
+          <a class="social-button" href="#">Вконтакте</a>
+          <img src="img/icon-first.png" width="81" height="81" alt="Вконтакте">
+          <img src="img/icon-vk.png" width="26" height="15" alt="Вконтакте">
+        </li>
+        <li>
+          <a class="social-button" href=" #">Фейсбук</a>
+          <img src="img/icon-second.png" width="81" height="81" alt="Фейсбук">
+          <img src="img/icon-fcb.png" width="26" height="15" alt="Фейсбук">
+        </li>
+        <li>
+          <a class="social-button" href=" #">Инстаграм</a>
+          <img src="img/icon-third.png" width="81" height="81" alt="Инстаграм">
+          <img src="img/icon-insta.png" width="26" height="15" alt="Инстаграм">
+        </li>
+      </ul>
+    </section>
+  </footer>
+</body>
 
-        </div>
-      </section>
-      <section class="footer-social">
-        <h2>Мы в соцсетях</h2>
-        <b class="footer-social">Давайте дружить-это выгодно!</b>
-        <p class="footer-social">скидка 10% для друзей из социальных сетей</p>
-        <ul>
-          <li>
-            <a class="social-button" href="#">Вконтакте</a>
-            <img src="img/icon-first.png" width="81" height="81" alt="Вконтакте">
-            <img src="img/icon-vk.png" width="26" height="15" alt="Вконтакте">
-          </li>
-          <li>
-            <a class="social-button" href=" #">Фейсбук</a>
-            <img src="img/icon-second.png" width="81" height="81" alt="Фейсбук">
-            <img src="img/icon-fcb.png" width="26" height="15" alt="Фейсбук">
-          </li>
-          <li>
-            <a class="social-button" href=" #">Инстаграм</a>
-            <img src="img/icon-third.png" width="81" height="81" alt="Инстаграм">
-            <img src="img/icon-insta.png" width="26" height="15" alt="Инстаграм">
-          </li>
-        </ul>
-      </section>
-    </footer>
-  </body>
-
-  </html>
+</html>
