@@ -66,7 +66,6 @@
 }
 
 
-
 img {
     max-widht: 100%;
     height: auto;
@@ -120,7 +119,7 @@ img {
         font-weight: 500;
         font-size: 16px;
         line-height: 18px;
-        color: #FFFFFF;
+       
     }
 
 
@@ -155,7 +154,7 @@ img {
         font-size: 16px;
         line-height: 18px;
     } 
-    quality-item b{
+    .quality-item b{
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
@@ -216,27 +215,143 @@ img {
         color:  #444444;
 
     }
-
-
-
-
-
-
 /* Social button */
 
 
 
+    @font-face {
+        font-family: "roboto";
+        src: url("..fonts/roboto.woff2") format("woff2"),
+         url("..fonts/roboto.woff") format("woff");
+         font-weight: 400;
+         font-style: normal;
+}
+
+    @font-face {
+        font-family: "robotomedium";
+        src: url("..fonts/robotomedium.woff2") format("woff2"),
+        url("..fonts/robotomedium.woff") format("woff");
+        font-weight: 500;
+        font-style: normal;
+}
+                
+    @font-face {
+        font-family: "robotobold";
+        src: url("..fonts/robotobold.woff2") format("woff2"),
+        url("..fonts/robotobold.woff") format("woff");
+        font-weight: 700;
+        font-style: normal;
+                        
+}
+
+/* Global */
+        background: #EEEEEE;
+        min-width: 960px;
+        font-family: "roboto";
+        background-image: url("../img/bg.jpg");
+        background-position: top center;
+        background-repeat: no-repeat;
+}
+
+    .page-title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 55px;
+        line-height: 55px;
+        color: #000000;
+
+  }
+
+  /* filters */ 
+
+    .filters {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 30px;
+        color: #000000;  
+}
+
+    .filter-input-radio filter-input
+    .filter-option filter-checkbox{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
 
 
+    .filter-input-checkbox:hover + label,
+    .filter-input-checkbox:focus + label {
+        color: #283136;
+    }
 
+    .filter-button {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        text-transform: uppercase;
+        background-color: #EEEEEE;
+        color: #000000; 
+        border: none;
+    }
+
+    .sort-item {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #283136;
+
+    }
+
+    .catalog-list {
+        list-style: none;
+    }
+
+    .catalog-item {
+        background: #888888;
+    }
+    .catalog-item-price a{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        color: #FFFFFF;
+        background: #FB565A;
+        
+    }
+    
+   
     
 
+    /* Pagination */ 
 
+    .pagination-list {
+        list-style: none;
+}
 
+  
+  
+    .pagination-item a:hover,
+    .pagination-item a:focus,
+    .pagination-item a:active {
+         color: #000000; 
+  }
+  
+    .pagination-item-current a,
+    .pagination-item-current a:hover,
+    .pagination-item-current a:focus,
+    .pagination-item-current a:active {
+         color: #000000;
 
-
-
-
-
-
-
+    }
+    
+  
