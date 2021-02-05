@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "roboto";
+    font-family: "Roboto", Arial, sans-serif;
         src: url("..fonts/roboto.woff2") format("woff2"),
          url("..fonts/roboto.woff") format("woff");
          font-weight: 400;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: "robotomedium";
+    font-family: "Roboto", Arial, sans-serif;
         src: url("..fonts/robotomedium.woff2") format("woff2"),
         url("..fonts/robotomedium.woff") format("woff");
         font-weight: 500;
@@ -15,7 +15,7 @@
 }
                 
 @font-face {
-    font-family: "robotobold";
+    font-family: "Roboto", Arial, sans-serif;
         src: url("..fonts/robotobold.woff2") format("woff2"),
         url("..fonts/robotobold.woff") format("woff");
         font-weight: 700;
@@ -25,7 +25,7 @@
 /* Variables*/
  
 :root {
-    --basik-black: #000000;
+    --basiс-black: #000000;
     --darkblue:#283136;
     --white: #FFFFFF;
     --darkgrey: #444444;
@@ -41,16 +41,13 @@
    
 .page-body {
     min-width: 960px;
-    font-family: "roboto";
+    font-family: "Roboto", Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 400;
-    color: 000000;
-    background-position: absolute;
+    color: #000000;
     background-repeat: no-repeat;
     text-transform: uppercase;
     color:#283136;
-
     min-height: 100%;
     display: grid;
     grid-template-rows: min-content 1fr min-content;
@@ -96,12 +93,11 @@
  .site-navigation {
     margin: 0;
     padding: 0;
-    font-family: Roboto;
-    font-style: normal;
+    font-family: "Roboto", Arial, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px; 
-    background color: #EEEEEE;
+    background-color: #EEEEEE;
     list-style: none; 
     color:  #000000;
 
@@ -120,17 +116,16 @@ img {
 /*description */
 
 .description p{
-    
+    font-family: "Roboto", Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
-    font-family: Roboto;
     font-weight: 400;
     color:#283136;
     list-style: none;
 } 
 
 .description b{
-    font-style: normal;
+    font-family: "Roboto", Arial, sans-serif;
     font-weight: 500;
     font-size: 55px;
     line-height: 55px;
@@ -140,6 +135,7 @@ img {
 
 /* services*/
     .services-list {
+        font-family: "Roboto", Arial, sans-serif;
         list-style: none;
         margin: 0;
         padding: 0;
@@ -149,8 +145,7 @@ img {
 }
 
     .services-item b{
-        font-family: Roboto;
-        font-style: normal;
+        font-family: "Roboto", Arial, sans-serif;
         font-weight: 700;
         font-size: 24px;
         line-height: 30px;
@@ -158,15 +153,14 @@ img {
     }
 
     .services-item p{
+        font-family: "Roboto", Arial, sans-serif;
         font-size: 16px;
         line-height: 24px;
-        font-family: Roboto;
         font-weight: 400;
         color:#283136;
     }
 /* Button */
-        font-family: Roboto;
-        font-style: normal;
+        font-family: "Roboto", Arial, sans-serif;   
         font-weight: 500;
         font-size: 16px;
         line-height: 18px;
@@ -186,8 +180,7 @@ img {
 
     .about us-item b{
 
-        font-family: Roboto;
-        font-style: normal;
+        font-family: "Roboto", Arial, sans-serif;
         font-weight: 500;
         font-size: 45px;
         line-height: 45px;
@@ -196,9 +189,9 @@ img {
     } 
 
     .about us-item p{
+        font-family: "Roboto", Arial, sans-serif;
         font-size: 16px;
         line-height: 24px;
-        font-family: Roboto;
         font-weight: 400;
         color:#283136;
     } 
@@ -206,27 +199,24 @@ img {
 /*.quality*/
 
     .quality-item p{
-        font-family: Roboto;
-        font-style: normal;
+        font-family: "Roboto", Arial, sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 18px;
     } 
     .quality-item b{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
+        font-family: "Roboto", Arial, sans-serif;
+        font-weight: 700;
         font-size: 45px;
         line-height: 64px;
-        color: 000000;
+        color: #000000;
     }
 
     /* Main footer */
 
 /* Contacts */   
     .contacts-phone {
-        font-family: Roboto;
-        font-style: normal;
+        font-family: "Roboto", Arial, sans-serif;
         font-weight: normal;
         font-size: 16px;
         line-height: 18px;
@@ -235,9 +225,9 @@ img {
 
 /* address */
     .address  {
-        font-family: Roboto;
+        font-family: "Roboto", Arial, sans-serif;
         font-style: normal;
-        font-weight: normal;
+        font-weight: 400;
         font-size: 16px;
         line-height: 18px;
         color:  #666666;
@@ -256,17 +246,15 @@ img {
 
     }
     .social b {
-        font-family: Roboto;
-        font-style: normal;
+        font-family: "Roboto", Arial, sans-serif;
         font-weight: 700;
         font-size: 36px;
         line-height: 36px;
-        color: 000000;
+        color: #000000;
     }
 
     .social p {
-        font-family: Roboto;
-        font-style: normal;
+        font-family: "Roboto", Arial, sans-serif;
         font-weight: normal;
         font-size: 16px;
         line-height: 22px;
@@ -275,45 +263,8 @@ img {
     }
 /* Social button */
 
-
-
-    @font-face {
-        font-family: "roboto";
-        src: url("..fonts/roboto.woff2") format("woff2"),
-         url("..fonts/roboto.woff") format("woff");
-         font-weight: 400;
-         font-style: normal;
-}
-
-    @font-face {
-        font-family: "robotomedium";
-        src: url("..fonts/robotomedium.woff2") format("woff2"),
-        url("..fonts/robotomedium.woff") format("woff");
-        font-weight: 500;
-        font-style: normal;
-}
-                
-    @font-face {
-        font-family: "robotobold";
-        src: url("..fonts/robotobold.woff2") format("woff2"),
-        url("..fonts/robotobold.woff") format("woff");
-        font-weight: 700;
-        font-style: normal;
-                        
-}
-
-/* Global */
-        background: #EEEEEE;
-        min-width: 960px;
-        font-family: "roboto";
-        background-image: url("../img.bg.jpg");
-        background-position: top center;
-        background-repeat: no-repeat;
-}
-
     .page-title {
-        font-family: Roboto;
-        font-style: normal;
+        font-family: "Roboto", Arial, sans-serif;
         font-weight: 500;
         font-size: 55px;
         line-height: 55px;
@@ -324,9 +275,8 @@ img {
   /* filters */ 
 
     .filters {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
+        font-family: "Roboto", Arial, sans-serif;
+        font-weight: 700;
         font-size: 18px;
         line-height: 30px;
         color: #000000;  
@@ -334,8 +284,7 @@ img {
 
     .filter-input-radio filter-input
     .filter-option filter-checkbox{
-        font-family: Roboto;
-        font-style: normal;
+        font-family: "Roboto", Arial, sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
@@ -348,8 +297,7 @@ img {
     }
 
     .filter-button {
-        font-family: Roboto;
-        font-style: normal;
+        font-family: "Roboto", Arial, sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 18px;
@@ -360,9 +308,8 @@ img {
     }
 
     .sort-item {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
+        font-family: "Roboto", Arial, sans-serif;
+        font-weight: 400;
         font-size: 16px;
         line-height: 19px;
         color: #283136;
@@ -377,8 +324,7 @@ img {
         background: #888888;
     }
     .catalog-item-price a{
-        font-family: Roboto;
-        font-style: normal;
+        font-family: "Roboto", Arial, sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 18px;

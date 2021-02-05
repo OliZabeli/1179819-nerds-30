@@ -8,10 +8,8 @@
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="favicon/180.png">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link href="normalize.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body class="page-body">
@@ -40,8 +38,7 @@
       <p class="description">Математически выверенный дизайн
         для вашего сайта или приложения</p>
       <a class="button" href="#">Узнать больше</a>
-      <--!<button class="button" type="submit">Узнать больше</button>-->
-        <img src="img/img-index.png" width="486" height="315" alt="фоновая картинка">
+      <img src="img/img-index.png" width="486" height="315" alt="фоновая картинка">
     </section>
     <div class="index-columns">
       <section class="services">
@@ -99,7 +96,6 @@
         </ul>
       </section>
     </div>
-
     <div class="index-columns">
       <section class="partners">
         <h2>Партнёры</h2>
@@ -123,34 +119,13 @@
   <footer class="main-footer">
     <section class="contacts">
       <h2>Контакты</h2>
-      <img src="img/map.jpg" width="1440" height="416" alt="карта">
-      <img src="img/map-marker.jpg" width="231" height="190" alt="логотип дизайн-студии">
-      <img src="img/blok-adress.png" width="319" height="308" alt="адрес">
-      <div class="modal">
+      <!-- Здесь будет карта -->
+      <div class="information">
         <b>NЁRDS DESIGN STUDIO</b>
         <address class="address"> 191186 г. Санкт-Петербург, Б. Конюшенная, д. 19/8</address>
         <p>Тел.: <a class="contacts-phone">+7 (812) 666-02-66</a></p>
+      </div>
     </section>
-    <section class="modal modal-feedback">
-      <h2>Напишите нам</h2>
-      <p class="modal-feedback">Напишите нам</p>
-      <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
-        <p class="feedback-item"></p>
-        <label for="feedback-name">Ваше имя</label>
-        <input id="feedback-name" type="text" name="name" placeholder="Имя Фамилия">
-        </p>
-        <p class="feedback-email">
-          <label for="feedback-email">Ваш email</label>
-          <input id="appointment-phone" type="tel" name="email" placeholder="email@example.com">
-        </p>
-        <p class="feedback-text">
-          <label for="feedback-text">Текст письма</label>
-          <input id="feedback-text" type="text" name="Text" placeholder="в свободной форме">
-        </p>
-        <button class="button" type="submit">Отправить</button>
-      </form>
-    </section>
-    </div>
     <section class="footer-social">
       <h2>Мы в соцсетях</h2>
       <b class="footer-social">Давайте дружить-это выгодно!</b>
@@ -158,22 +133,35 @@
       <ul>
         <li>
           <a class="social-button" href="#">Вконтакте</a>
-          <img src="img/icon-first.png" width="81" height="81" alt="Вконтакте">
-          <img src="img/icon-vk.png" width="26" height="15" alt="Вконтакте">
         </li>
         <li>
           <a class="social-button" href=" #">Фейсбук</a>
-          <img src="img/icon-second.png" width="81" height="81" alt="Фейсбук">
-          <img src="img/icon-fcb.png" width="26" height="15" alt="Фейсбук">
         </li>
         <li>
           <a class="social-button" href=" #">Инстаграм</a>
-          <img src="img/icon-third.png" width="81" height="81" alt="Инстаграм">
-          <img src="img/icon-insta.png" width="26" height="15" alt="Инстаграм">
         </li>
       </ul>
     </section>
   </footer>
+  <section class="modal modal-feedback">
+    <h2>Напишите нам</h2>
+    <p class="modal-feedback">Напишите нам</p>
+    <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
+      <p class="feedback-item"></p>
+      <label for="feedback-name">Ваше имя</label>
+      <input id="feedback-name" type="text" name="name" placeholder="Имя Фамилия">
+      </p>
+      <p class="feedback-email">
+        <label for="feedback-email">Ваш email</label>
+        <input id="appointment-phone" type="tel" name="email" placeholder="email@example.com">
+      </p>
+      <p class="feedback-text">
+        <label for="feedback-text">Текст письма</label>
+        <input id="feedback-text" type="text" name="Text" placeholder="в свободной форме">
+      </p>
+      <button class="button" type="submit">Отправить</button>
+    </form>
+  </section>
 </body>
 
 </html>
