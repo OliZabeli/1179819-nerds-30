@@ -306,7 +306,7 @@ img {
         background: #EEEEEE;
         min-width: 960px;
         font-family: "roboto";
-        background-image: url("../img/bg.jpg");
+        background-image: url("../img.bg.jpg");
         background-position: top center;
         background-repeat: no-repeat;
 }
