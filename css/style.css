@@ -44,42 +44,50 @@
     font-family: "Roboto", Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
-    color: #000000;
+    color: #283136;
     background-repeat: no-repeat;
-    text-transform: uppercase;
-    color:#283136;
+    text-transform: ;
     min-height: 100%;
     display: grid;
     grid-template-rows: min-content 1fr min-content;
     align-content: start;
+    height: 100%;
 }  
 
-/* main-navigation */
-.main-navigation {
-    display: grid;
-
-
-}
 /* Container */
 
 .container {
-    width: 940px;
+    width: 1157px;
     margin: 0 auto;
     padding: 0 10px;
   }
 
 /* Logo */
 
-.main-header-logo {
-    order: 1;
-}
+
 .main-header-bar {
     background-color: #EEEEEE;
-       
+ 
+
+}
+.main-header-logo {
+    width: 1157px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: #EEEEEE;
+ 
 
 }
 
 
+
+
+
+
+
+.main-navigation {
+    display: grid;
+}
 .main-navigation-wrapper {
     display: grid;
     grid-template-columns: 1fr min-content;
@@ -91,10 +99,9 @@
 }
 
  .site-navigation {
-    
-
     margin: 0;
     padding: 0;
+    text-transform: uppercase;
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -117,7 +124,7 @@ img {
 
 /*description */
 
-.description p{
+.description p {
     font-family: "Roboto", Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -126,7 +133,7 @@ img {
     list-style: none;
 } 
 
-.description b{
+.description b {
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 500;
     font-size: 55px;
@@ -134,6 +141,22 @@ img {
     color: #000000;
 
     }
+    .button {
+        background-color: #FB565A;
+        color: #EEEEEE;
+        display: block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 3px;
+       
+    }
+
+
+        
+
+        
+    
 
 /* services*/
     .services-list {
@@ -151,7 +174,10 @@ img {
         font-weight: 700;
         font-size: 24px;
         line-height: 30px;
-        color: 000000;
+        color:#000000;
+      
+
+     
     }
 
     .services-item p{
@@ -188,7 +214,7 @@ img {
         font-weight: 500;
         font-size: 45px;
         line-height: 45px;
-        color: 000000;
+        color: #000000;
 
     } 
 
@@ -221,8 +247,23 @@ img {
         line-height: 64px;
         color: #000000;
     }
+    /*partners*/
+
+        .partners-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+} 
 
     /* Main footer */
+    .main-footer {
+        
+        outline: 5px solid rgba(255, 0, 0, 0.7);
+        outline-offset: -5px;
+           } 
+
 
 /* Contacts */   
     .contacts-phone {
@@ -241,6 +282,7 @@ img {
         font-size: 16px;
         line-height: 18px;
         color:  #666666;
+     
     }
 
     .footer-social {
@@ -251,11 +293,7 @@ img {
         list-style: none;
       }
       
-      .footer-social h2 {
-        font-size: 15px;
-
-    }
-    .social b {
+      .social b {
         font-family: "Roboto", Arial, sans-serif;
         font-weight: 700;
         font-size: 36px;
@@ -273,12 +311,16 @@ img {
     }
 /* Social button */
 
+/*catalog*/
+
     .page-title {
         font-family: "Roboto", Arial, sans-serif;
         font-weight: 500;
         font-size: 55px;
         line-height: 55px;
         color: #000000;
+        background-color: #EEEEEE;
+        
 
   }
 
@@ -292,12 +334,18 @@ img {
         color: #000000;  
 }
 
-    .filter-input-radio filter-input
-    .filter-option filter-checkbox{
+   
+    .filter-option filter-checkbox {
         font-family: "Roboto", Arial, sans-serif;
         font-weight: 400;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 20px;
+    }
+    .filter-input-radio filter-input {
+        font-family: "Roboto", Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
     }
 
 
@@ -321,13 +369,15 @@ img {
         font-family: "Roboto", Arial, sans-serif;
         font-weight: 400;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 20px;
         color: #283136;
+        
 
     }
 
     .catalog-list {
         list-style: none;
+        text-decoration: none;
     }
 
     .catalog-item {

@@ -14,19 +14,21 @@
 
 <body class="page-body">
   <header class="main-header">
-    <nav class="main-navigation">
+    <nav class="main-navigation contaner">
       <a class="main-header-logo">
-        <img src="img/logo-nerds.svg" width="159" height="65" alt="Логотип дизайн-студии">
+        <img src="img/logo-nerdss.svg" width="159" height="65" alt="Логотип дизайн-студии">
       </a>
-      <div class="main-navigation-wrapper">
-        <div class="main-header-bar">
-          <ul class="site-navigation">
-            <li><a href="#">Студия</a></li>
-            <li><a href="#">Клиенты</a></li>
-            <li><a href="catalog.html">Магазин</a></li>
-            <li><a href="#">Контакты</a></li>
-            <li><a href="#">Корзина</a></li>
-          </ul>
+   
+        <div class="main-navigation-wrapper">
+          <div class="main-header-bar">
+            <ul class="site-navigation">
+              <li><a href="#">Студия</a></li>
+              <li><a href="#">Клиенты</a></li>
+              <li><a href="catalog.html">Магазин</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Корзина</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -59,7 +61,7 @@
           <li class="services-item">
             <b class="description">ПРЕЗЕНТАЦИИ</b>
             <p class="services-item">Вы даже не подозреваете,насколько вы изумительны!</p>
-            <a сlass="button" href="#">Заказать</a>
+            <a class="button" href="#">Заказать</a>
           </li>
         </ul>
       </section>
@@ -78,43 +80,48 @@
           <li class="about us-item">Слайдшоу и видео для корпоративных презентаций</li>
         </ul>
     </div>
-    <div class="index-columns">
-      <img src="img/img-nerds.svg" width="360" height="208" alt="Логотип дизайн-студии">
-      <b>С 2004 года любим точность во всем:</b>
-      <ul class="quality-list">
-        <li class="quality-item">
-          <b class="quality">146%</b>
-          <p class="quality">Уровень самоотдачи</p>
-        </li>
-        <li class="quality-item">
-          <b>100%</b>
-          <p>Соблюдение сроков</p>
-        </li>
-        <li class="quality-item">
-          <b class="quality">50%</b>
-          <p class="quality">Минимальная предоплата</p>
-        </li>
-      </ul>
-      </section>
+
+
+    <div class="twist">
+      <img src="img/img-nerds.jpg" width="360" height="208" alt="Логотип дизайн-студии">
     </div>
-    <div class="index-columns">
-      <section class="partners">
-        <h2>Партнёры</h2>
-        <ul>
-          <li>
-            <a href="#"><img src="img/logo-academy.svg" alt="Логотип академии" width="199" height="67"></a>
-          </li>
-          <li>
-            <a href="#"><img srs="img/logo-barbershop.svg" alt="Логотип барбершопа Бородинский" width="209"
-                height="90"></a>
-          </li>
-          <li>
-            <a href="#"><img src="img/logo-pink.svg" alt="Логотип студии pink" width="185" height="52"></a>
-          </li>
-          <li>
-            <a href="#"><img src="img/logo-mishka.svg" alt="Логотип mishka" width="173" height="84"></a>
-          </li>
-      </section>
+    <b>С 2004 года любим точность во всем:</b>
+    <ul class="quality-list">
+      <li class="quality-item">
+        <b class="quality">146%</b>
+        <p class="quality">Уровень самоотдачи</p>
+      </li>
+      <li class="quality-item">
+        <b>100%</b>
+        <p>Соблюдение сроков</p>
+      </li>
+      <li class="quality-item">
+        <b class="quality">50%</b>
+        <p class="quality">Минимальная предоплата</p>
+      </li>
+    </ul>
+    </div>
+    </section>
+
+    <div class="index-columns"></div>
+    <section class="partners">
+      <h2>Партнёры</h2>
+      <ul class="partners-list">
+        <li class="partners-item">
+          <a href="#"><img src="img/logo-academy.svg" alt="Логотип академии" width="199" height="67"></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/logo-barbershop.svg" alt="Логотип барбершопа Бородинский" width="209"
+              height="90"></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/logo-pink.svg" alt="Логотип студии pink" width="185" height="52"></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/logo-mishka.svg" alt="Логотип mishka" width="173" height="84"></a>
+        </li>
+
+    </section>
     </div>
   </main>
   <footer class="main-footer">
@@ -123,7 +130,7 @@
       <!-- Здесь будет карта -->
       <div class="information">
         <b>NЁRDS DESIGN STUDIO</b>
-        <address class="address"> 191186 г. Санкт-Петербург, Б. Конюшенная, д. 19/8</address>
+        <address class="address"> 191186 г. Санкт-Петербург, Б.Конюшенная, д. 19/8</address>
         <p>Тел.: <a class="contacts-phone">+7 (812) 666-02-66</a></p>
       </div>
     </section>
@@ -146,8 +153,7 @@
   </footer>
   <section class="modal modal-feedback">
     <h2>Напишите нам</h2>
-    <p class="modal-feedback">Напишите нам</p>
-    <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
+      <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
       <p class="feedback-item"></p>
       <label for="feedback-name">Ваше имя</label>
       <input id="feedback-name" type="text" name="name" placeholder="Имя Фамилия">

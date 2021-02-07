@@ -16,7 +16,7 @@
     <header class="main-header">
       <nav class="main-navigation container">
         <a class="main-header-logo" href="index.html">
-          <img src="img/logo-nerds.svg" width="159" height="65" alt="Логотип дизайн-студии">
+          <img src="img/logo-nerdss.svg" width="159" height="65" alt="Логотип дизайн-студии">
         </a>
         <ul class="site-navigation">
           <li><a href="#">Студия</a></li>
@@ -34,7 +34,17 @@
         <form method="get" action="https://echo.htmlacademy.ru">
           <b class="cost">Стоимость:</b>
           <!-- ползунок -->
-          <b>Сетка</b>
+          <div>
+            <header>
+              <b>Сортировать:</b>
+              <ul class="sort-list">
+                <li class="sort-item"><a href="#">по цене</a></li>
+                <li class="sort-item"><a href="#">по типу</a></li>
+                <li class="sort-item"><a href="#">по названию</a></li>
+              </ul>
+            </header>
+          </div>
+          <b>Сетка:</b>
           <ul class="filters-list">
             <li class="filter-option filter-radio">
               <input class="filter-input-radio filter-input" type="radio" type="radio" name="grid" value="adaptive"
@@ -75,23 +85,14 @@
           </ul>
           <button type="submit" class="filter-button button">Показать</button>
         </form>
-        <div>
-          <header>
-            <b>Сортировать:</b>
-            <ul class="sort-list">
-              <li class="sort-item"><a href="#">по цене</a></li>
-              <li class="sort-item"><a href="#">по типу</a></li>
-              <li class="sort-item"><a href="#">по названию</a></li>
-            </ul>
-          </header>
-          <div>
-            <ul class="catalog-list">
-              <li class="catalog-item">
-                <img src="img/img-sedona.jpg" alt="шаблон седона">
-                <b>sedona</b>
-                <p>Информационный сайт для туристов</p>
-                <a class="catalog-item-price" href="#">9900 ₽</a>
-              </li>
+<div class="catalog">
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <img src="img/img-sedona.jpg" alt="шаблон седона">
+            <b>sedona</b>
+            <p>Информационный сайт для туристов</p>
+            <a class="catalog-item-price" href="#">9900 ₽</a>
+          </li>
           </div>
           <li class="catalog-item">
             <img src="img/img-pink.jpg" alt="шаблон pink">
@@ -108,21 +109,21 @@
           <li class="catalog-item">
             <img src="img/img-kvast.jpg" alt="шаблон kvas">
           </li>
-          </ul>
-          <ul class="pagination-list">
-            <li class="pagination-item pagination-item-current">
-              <a>1</a>
-            </li>
-            <li class="pagination-item">
-              <a href="#">2</a>
-            </li>
-            <li class="pagination-item">
-              <a href="#">3</a>
-            </li>
-            <li class="pagination-item">
-              <a href="#">Следующая</a>
-            </li>
-          </ul>
+        </ul>
+        <ul class="pagination-list">
+          <li class="pagination-item pagination-item-current">
+            <a>1</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#">3</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#">Следующая</a>
+          </li>
+        </ul>
         </div>
       </section>
     </main>
@@ -132,7 +133,7 @@
         <!-- Здесь будет карта -->
         <div class="information">
           <b>NЁRDS DESIGN STUDIO</b>
-          <address class="address"> 191186 г. Санкт-Петербург, Б. Конюшенная, д. 19/8</address>
+          <address class="address"> 191186 г. Санкт-Петербург, Б.Конюшенная, д. 19/8</address>
           <p>Тел.: <a class="contacts-phone">+7 (812) 666-02-66</a></p>
         </div>
       </section>
@@ -155,7 +156,6 @@
     </footer>
     <section class="modal modal-feedback">
       <h2>Напишите нам</h2>
-      <p class="modal-feedback">Напишите нам</p>
       <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
         <p class="feedback-item"></p>
         <label for="feedback-name">Ваше имя</label>
