@@ -14,22 +14,21 @@
 
 <body class="page-body">
   <header class="main-header">
-    <nav class="main-navigation contaner">
+    <nav class="main-navigation container">
       <a class="main-header-logo">
         <img src="img/logo-nerdss.svg" width="159" height="65" alt="Логотип дизайн-студии">
       </a>
-   
-        <div class="main-navigation-wrapper">
-          <div class="main-header-bar">
-            <ul class="site-navigation">
-              <li><a href="#">Студия</a></li>
-              <li><a href="#">Клиенты</a></li>
-              <li><a href="catalog.html">Магазин</a></li>
-              <li><a href="#">Контакты</a></li>
-              <li><a href="#">Корзина</a></li>
-            </ul>
-          </div>
+      <div class="main-navigation-wrapper">
+        <div class="main-header-bar">
+          <ul class="site-navigation">
+            <li><a href="#">Студия</a></li>
+            <li><a href="#">Клиенты</a></li>
+            <li><a href="catalog.html">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Корзина</a></li>
+          </ul>
         </div>
+      </div>
       </div>
     </nav>
   </header>
@@ -39,7 +38,7 @@
       <b class="description">Долго, дорого, скрупулёзно.</b>
       <p class="description">Математически выверенный дизайн
         для вашего сайта или приложения</p>
-      <a class="button" href="#">Узнать больше</a>
+      <a href="#" class="button design-web">Узнать больше</a>
       <img src="img/img-index.png" width="486" height="315" alt="фоновая картинка">
     </section>
     <div class="index-columns">
@@ -50,18 +49,18 @@
             <b class="description">ВЕБ-САЙТЫ</b>
             <p class="services-item">Мир никогда не будет прежним
               после того как увидит ваш сайт!</p>
-            <a class="button" href="#">Заказать</a>
+            <a href="#" class="button order-web">Заказать</a>
           </li>
           <li class="services-item">
             <b class="description">ПРИЛОЖЕНИЯ</b>
             <p class="services-item">Покорите топ-10 приложений
               в App-store и Google play</p>
-            <a class="button" href="#">Заказать</a>
+            <a href="#" class="button order-app">Заказать</a>
           </li>
           <li class="services-item">
             <b class="description">ПРЕЗЕНТАЦИИ</b>
             <p class="services-item">Вы даже не подозреваете,насколько вы изумительны!</p>
-            <a class="button" href="#">Заказать</a>
+            <a href="#" class="button order-presentation">Заказать</a>
           </li>
         </ul>
       </section>
@@ -132,6 +131,7 @@
         <b>NЁRDS DESIGN STUDIO</b>
         <address class="address"> 191186 г. Санкт-Петербург, Б.Конюшенная, д. 19/8</address>
         <p>Тел.: <a class="contacts-phone">+7 (812) 666-02-66</a></p>
+        <button class="button sent" type="submit">Напишите нам</button>
       </div>
     </section>
     <section class="footer-social">
@@ -153,7 +153,7 @@
   </footer>
   <section class="modal modal-feedback">
     <h2>Напишите нам</h2>
-      <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
+    <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
       <p class="feedback-item"></p>
       <label for="feedback-name">Ваше имя</label>
       <input id="feedback-name" type="text" name="name" placeholder="Имя Фамилия">
@@ -166,7 +166,7 @@
         <label for="feedback-text">Текст письма</label>
         <input id="feedback-text" type="text" name="Text" placeholder="в свободной форме">
       </p>
-      <button class="button" type="submit">Отправить</button>
+      <button class="button sent" type="submit">Отправить</button>
     </form>
   </section>
 </body>
