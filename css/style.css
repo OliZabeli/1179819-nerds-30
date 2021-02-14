@@ -52,14 +52,12 @@
     
  
 }
-   
-    
-    
+ 
 
 /* Container */
 
 .container {
-    width: 1160px;
+    width: 1440px;
     margin: 0 auto;
     padding: 0 10px;
      }
@@ -86,18 +84,17 @@
     background-color: #EEEEEE;
     
     
-    }
+}
 
-.main-navigation-wrapper {
+ .main-navigation-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #EEEEEE;
     width: 1440px;
     margin: 0 auto;
     padding: 0 10px;
-    
-
-}
+  
+ }
 
  .site-navigation {
     width: 1440px;
@@ -111,21 +108,20 @@
     background-color: #EEEEEE;
     list-style: none; 
     color:  #000000;
+    
    
 }
    
 
 img {
-    max-widht: 100%;
+    max-width: 100%;
     height: auto;
    
 }
-/* Grid */
-    .page {
-    height: 100%;
-  }
+
 
 /*description */
+
  
 .description h2 {
     visibility: hidden;
@@ -414,6 +410,8 @@ img {
     }
 /* Social button */
 
+
+
 /*catalog*/
 
 
@@ -431,15 +429,33 @@ img {
 
 
 }
-.page-catalog .page-title {
+/*.page-catalog .page-title {
     grid-column: 1 / -1;
-}
+}*/
 
 
 .main-header-logo {
     order: 0;
 }
 
+.catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 54px;
+}
+.catalog-item {
+    width: 360px;
+    min-height: 578px;
+    margin-right: 40px;
+    margin-bottom: 31px;
+}
+.catalog-item-img {
+    width: 360px;
+    min-height: 578px;
+}
 
 
     .page-title {
@@ -458,44 +474,71 @@ img {
     
   }
   
-
-    
-    
+   
    
   /* filters */ 
 
   .filters h2 {
     visibility: hidden;
 }
-.filters-grid  {
-    list-style: none;
+ 
 
-}
-.filters-features  {
+.filters-list  {
     list-style: none;
-
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 }
+.features  {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000; 
+}
+.cost {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000; 
+}
+.grid {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000; 
+} 
 .sort-list  {
     list-style: none;
 
 }
+ .translating {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;  
+}
 
-    .filters {
+.filters {
         font-family: "Roboto", Arial, sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 30px;
-        color: #000000;  
+        color:#283136;;  
 }
 
    
-    .filter-option filter-checkbox {
+.filter-option filter-checkbox {
         font-family: "Roboto", Arial, sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
     }
-    .filter-input-radio filter-input {
+.filter-input-radio filter-input {
         font-family: "Roboto", Arial, sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -508,7 +551,7 @@ img {
         color: #283136;
     }
 
-    .filter-button {
+.filter-button {
         font-family: "Roboto", Arial, sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -525,21 +568,12 @@ img {
         font-size: 16px;
         line-height: 20px;
         color: #283136;
-        
-
     }
+
+        
+            
     
-
-    .catalog-list {
-        list-style: none;
-        text-decoration: none;
-        
-    }
-
-    .catalog-item {
-        background: #888888;
-    }
-    .catalog-item-price a {
+       .catalog-item-price a {
         font-family: "Roboto", Arial, sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -590,9 +624,17 @@ img {
     
     .container h2 {
         visibility: hidden;
+    }
+        
+    .product-catalog h2 {
+        visibility: hidden;
+
+    }
+
+.filters h2 {
+    visibility: hidden;
+
 }
-
-
     
   
   
