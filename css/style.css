@@ -1,642 +1,626 @@
-@font-face {
-    font-family: "Roboto", Arial, sans-serif;
-        src: url("..fonts/roboto.woff2") format("woff2"),
-         url("..fonts/roboto.woff") format("woff");
-         font-weight: 400;
-         font-style: normal;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: "Roboto", Arial, sans-serif;
-        src: url("..fonts/robotomedium.woff2") format("woff2"),
-        url("..fonts/robotomedium.woff") format("woff");
-        font-weight: 500;
-        font-style: normal;
+  font-family: "Roboto";
+  src: url("..fonts/roboto.woff2") format("woff2"),
+    url("..fonts/roboto.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
-                
+
 @font-face {
-    font-family: "Roboto", Arial, sans-serif;
-        src: url("..fonts/robotobold.woff2") format("woff2"),
-        url("..fonts/robotobold.woff") format("woff");
-        font-weight: 700;
-        font-style: normal;
-                        
-}    
+  font-family: "Roboto";
+  src: url("..fonts/robotomedium.woff2") format("woff2"),
+    url("..fonts/robotomedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("..fonts/robotobold.woff2") format("woff2"),
+    url("..fonts/robotobold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+
+}
+
 /* Variables*/
- 
+
 :root {
-    --basiс-black: #000000;
-    --darkblue:#283136;
-    --white: #FFFFFF;
-    --darkgrey: #444444;
-    --rosered: #FB565A;
-    --estralightgrey: #EEEEEE;
-    --darkgrey: #231F20;
-    --green: #00CA74;
-    --yellow: #EFC849;
-    --lightgrey: #888888;
-    --grey: #666666;
+  --basiс-black: #000000;
+  --darkblue: #283136;
+  --white: #FFFFFF;
+  --darkgrey: #444444;
+  --rosered: #FB565A;
+  --estralightgrey: #EEEEEE;
+  --darkgrey: #231F20;
+  --green: #00CA74;
+  --yellow: #EFC849;
+  --lightgrey: #888888;
+  --grey: #666666;
 
 }
+
 .page {
-    height: 100%;
-  }
-   
-.page-body {
-    
-    font-family: "Roboto", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    color: #283136;
-    min-height: 100%;
-    
- 
+  height: 100%;
 }
- 
+
+.page-body {
+  display: flex;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+  min-height: 100%;
+}
 
 /* Container */
 
 .container {
-    width: 1440px;
-    margin: 0 auto;
-    padding: 0 10px;
-     }
+  width: 1200px;
+  margin: 0 auto;
+   
+}
 
 /* Logo */
 .main-header {
-    background-color: #EEEEEE;
-    width: 1440px;
-    margin: 0 auto;
-    padding: 0 10px;
  
-
+  background-color: #EEEEEE;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+ 
 }
 
-.main-header-bar {
-    width: 1440px;
+.main-navigation container {
+    display: flex;
     background-color: #EEEEEE;
-    margin: 0 auto;
-    padding: 0 10px;
-
-}
-.main-header-logo {
-    width: 1440px;
-    background-color: #EEEEEE;
-    
-    
-}
-
- .main-navigation-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #EEEEEE;
-    width: 1440px;
-    margin: 0 auto;
-    padding: 0 10px;
+       
+  }
   
- }
-
- .site-navigation {
-    width: 1440px;
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
+  .user-navigation {
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 30px; 
-    background-color: #EEEEEE;
-    list-style: none; 
-    color:  #000000;
-    
-   
+    line-height: 30px;
+    color: #000000;
+    text-transform: uppercase;
+
+  }
+  
+
+.site-navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  background-color: #EEEEEE;
+  list-style: none;
+  color: #000000;
+  margin-right: 45px;
+  justify-content: space-between;
+  
 }
-   
 
 img {
-    max-width: 100%;
-    height: auto;
-   
+  max-width: 100%;
+  height: auto;
+
 }
 
 
 /*description */
 
- 
-.description h2 {
-    visibility: hidden;
-    }
-.description {
-    display: grid;
-    background-color: #EEEEEE;
-   
-    
-   }
 
+.description h2 {
+  visibility: hidden;
+}
+
+.description {
+  display: grid;
+  background-color: #EEEEEE;
+ 
+}
 
 .description p {
-    font-family: "Roboto", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    color:#283136;
-    list-style: none;
-    background-color: #EEEEEE;
-} 
-
-.description b {
-    font-family: "Roboto", Arial, sans-serif;
-    font-weight: 500;
-    font-size: 55px;
-    line-height: 55px;
-    color: #000000;
-    background-color: #EEEEEE;
-
-    }
-.design-web {
-        background-color: #FB565A;
-        color: #EEEEEE;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 3px;
-        width: 240px;
-        height: 50px;
-        box-sizing:border-box;
-        display: inline;
-        
-       
-    }
-        
-          
-    .services-product {
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 30px;
-        
-        
-       
-    }
-
-    .order-web {
-        background-color: #FB565A;
-        color: #EEEEEE;
-        display: inline;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 3px;
-        box-sizing:border-box;
-       
-    }
-    .order-presentation {
-        background-color: #EFC849;
-        color: #EEEEEE;
-        display:  inline;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 3px;
-        
-    }
-    .order-app {
-        background-color: #00CA74;
-        color: #EEEEEE;
-        display:  inline;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 3px;
-        
-       
-    }
-    .sent {
-        background-color: #FB565A;
-        color: #EEEEEE;
-        display: block;
-        padding: 5px 10px;
-        text-align:  inline;
-        text-decoration: none;
-        border-radius: 3px;
-
-    }
-        
-
-
-/* services*/
-    .services-list {
-        font-family: "Roboto", Arial, sans-serif;
-        list-style: none;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 100px;
-        margin: 0;
-        padding: 5px 10px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+  list-style: none;
+  background-color: #EEEEEE;
+  
   
 }
 
-    .services-item b{
-       
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 30px;
-        color:#000000;
-      
-    }
-    .services {
-        margin-bottom: 80px;
+.description b {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
+  background-color: #EEEEEE;
+  
+}
 
-        }
+.design-web {
+  background-color: #FB565A;
+  color: #EEEEEE;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+  width: 240px;
+  height: 50px;
+  box-sizing: border-box;
+  display: inline;
+  
+}
 
-        .services h2 {
-            visibility: hidden;
-            }
-    
+.services-product {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  justify-content: space-between;
+}
+
+.order-web {
+  background-color: #FB565A;
+  color: #EEEEEE;
+  display: inline;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+
+}
+
+.order-presentation {
+  background-color: #EFC849;
+  color: #EEEEEE;
+  display: inline;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+
+}
+
+.order-app {
+  background-color: #00CA74;
+  color: #EEEEEE;
+  display: inline;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
 
 
-    .services-item p {
-       
-        font-family: "Roboto", Arial, sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;
-        color:#283136;
-            
-    }
+}
 
-    .button { 
-        font-family: "Roboto", Arial, sans-serif;   
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 18px;
-        text-align: center;
-        padding: 10px 20px;
-    }
-    /* Index columns */
+.sent {
+  background-color: #FB565A;
+  color: #EEEEEE;
+  display: block;
+  padding: 5px 10px;
+  text-align: inline;
+  text-decoration: none;
+  border-radius: 3px;
 
-    .index-columns {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+}
+
+/* services*/
+.services-list {
+  font-family: "Roboto", Arial, sans-serif;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  margin: 0;
+  padding: 5px 10px;
+  
+}
+
+.services-item b {
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+
+}
+
+.services {
+  margin-bottom: 80px;
+
+}
+
+.services h2 {
+  visibility: hidden;
+}
+
+.services-item p {
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+
+}
+
+.button {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/* Index columns */
+
+.index-columns {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 
 }
 
 
 
-    
 /*about us*/
 
+
 .about-us h2 {
-    visibility: hidden;
-    }
+  visibility: hidden;
+}
 
-    .about us-item b{
+.about us-item b {
 
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 500;
-        font-size: 45px;
-        line-height: 45px;
-        color: #000000;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+  color: #000000;
 
-    } 
+}
 
-    .about us-item p{
-        font-family: "Roboto", Arial, sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;
-        color:#283136;
-    } 
+.about us-item p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+}
 
 /*.quality*/
 
-    .quality-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 100px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.quality-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-    .quality-item p{
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 18px;
-        column-gap: 1px;
-    } 
-    .quality-item b{
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 700;
-        font-size: 45px;
-        line-height: 64px;
-        color: #000000;
-        column-gap: 1px;
-    }
-    /*partners*/
+.quality-item p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  column-gap: 1px;
+}
 
-        .partners-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        margin-bottom: 126px;
-     
-    }   
-
-    .partners h2{ 
-    visibility: hidden;
-    }
-
-     
+.quality-item b {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 64px;
+  color: #000000;
+  column-gap: 1px;
+}
 
 
-/* Contacts */   
-    .contacts-phone {
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 18px;
-        color:  #666666;
-    }
 
-    .contacts h2{ 
-        visibility: hidden;
-    }
+
+/*partners*/
+
+.partners-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 126px;
+
+}
+
+.partners h2 {
+  visibility: hidden;
+}
+
+/* Contacts */
+.contacts-phone {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.contacts h2 {
+  visibility: hidden;
+}
 
 /* address */
-    .address  {
-        font-family: "Roboto", Arial, sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 18px;
-        color:  #666666;
-     
-    }
- 
-    
-
-    .footer-social {
-        text-align: center;
-      }
-
-      .footer-social h2 { 
-        visibility: hidden;
-    }
-      
-      .footer-social ul {
-        list-style: none;
-      }
-      
-      .social b {
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 36px;
-        color: #000000;
-    }
-
-    .social p {
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 22px;
-        color:  #444444;
-
-    }
-/* Social button */
-
-
-
-/*catalog*/
-
-
-.page-body {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: min-content 1fr min-content;
-    align-content: start;
-  }
-  .page-catalog {
-    display: grid;
-    grid-template-columns:  300px 1fr;
-    align-content: start;
-    column-gap: 60px;
-
+.address {
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
 
 }
-/*.page-catalog .page-title {
-    grid-column: 1 / -1;
-}*/
 
+.footer-social {
+  text-align: center;
+}
 
-.main-header-logo {
-    order: 0;
+.footer-social h2 {
+  visibility: hidden;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social b {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.social p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #444444;
+
+}
+
+/* Social button */
+
+/*catalog*/
+.page-body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+
+.page-catalog {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  align-content: start;
+  column-gap: 60px;
+}
+
+.main-navigation container {
+  display: flex;
 }
 
 .catalog-list {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 54px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 54px;
 }
+
 .catalog-item {
-    width: 360px;
-    min-height: 578px;
-    margin-right: 40px;
-    margin-bottom: 31px;
+  width: 360px;
+  min-height: 578px;
+  margin-right: 40px;
+  margin-bottom: 31px;
 }
+
 .catalog-item-img {
-    width: 360px;
-    min-height: 578px;
+  width: 360px;
+  min-height: 578px;
 }
 
-
-    .page-title {
-        margin: 0;
-        padding: 0;
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 500;
-        font-size: 55px;
-        line-height: 55px;
-        color: #000000;
-        background-color: #EEEEEE;
-        display: grid;
-        grid-column: 1 / -1;
-        justify-content: center;
-
-    
-  }
-  
-   
-   
-  /* filters */ 
-
-  .filters h2 {
-    visibility: hidden;
+.page-title {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
+  background-color: #EEEEEE;
+  display: grid;
+  grid-column: 1 / -1;
+  justify-content: center;
 }
- 
 
-.filters-list  {
-    list-style: none;
-    font-family: "Roboto", Arial, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+/* filters */
+
+.filters h2 {
+  visibility: hidden;
 }
-.features  {
-    font-family: "Roboto", Arial, sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
-    color: #000000; 
+
+.filters-list {
+  list-style: none;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
+
+.features {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
 .cost {
-    font-family: "Roboto", Arial, sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
-    color: #000000; 
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
 }
-.grid {
-    font-family: "Roboto", Arial, sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
-    color: #000000; 
-} 
-.sort-list  {
-    list-style: none;
 
+.grid {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
 }
- .translating {
-    font-family: "Roboto", Arial, sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
-    color: #000000;  
+
+.sort-list {
+  list-style: none;
+}
+
+.translating {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
 }
 
 .filters {
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 30px;
-        color:#283136;;  
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #283136;
+  ;
 }
 
-   
+
 .filter-option filter-checkbox {
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-    }
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .filter-input-radio filter-input {
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-    }
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
 
 
-    .filter-input-checkbox:hover + label,
-    .filter-input-checkbox:focus + label {
-        color: #283136;
-    }
+.filter-input-checkbox:hover+label,
+.filter-input-checkbox:focus+label {
+  color: #283136;
+}
 
 .filter-button {
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 18px;
-        text-transform: uppercase;
-        background-color: #EEEEEE;
-        color: #000000; 
-        border: none;
-    }
-
-    .sort-item {
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        color: #283136;
-    }
-
-        
-            
-    
-       .catalog-item-price a {
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 18px;
-        color: #FFFFFF;
-        background: #FB565A;
-
-    }
-    
-   .information-site {
-    font-family: "Roboto", Arial, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    color: #666666;
-    background: #EEEEEE;
-    }
-
-    .button catalog-item-price {
-        background-color: #FB565A;
-        color: #EEEEEE;
-        padding: 10px 20px;
-        text-align: center;
-           }
-    
-
-    /* Pagination */ 
-
-    .pagination-list {
-        list-style: none;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  background-color: #EEEEEE;
+  color: #000000;
+  border: none;
 }
 
-  
-  
-    .pagination-item a:hover,
-    .pagination-item a:focus,
-    .pagination-item a:active {
-         color: #000000; 
-  }
-  
-    .pagination-item-current a,
-    .pagination-item-current a:hover,
-    .pagination-item-current a:focus,
-    .pagination-item-current a:active {
-         color: #000000;
+.sort-item {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #283136;
+}
 
-    }
-    
-    .container h2 {
-        visibility: hidden;
-    }
-        
-    .product-catalog h2 {
-        visibility: hidden;
 
-    }
+
+
+.catalog-item-price a {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background: #FB565A;
+
+}
+
+.information-site {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+  background: #EEEEEE;
+}
+
+.button catalog-item-price {
+  background-color: #FB565A;
+  color: #EEEEEE;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+
+/* Pagination */
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+  color: #000000;
+}
+
+.pagination-item-current a,
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  color: #000000;
+
+}
+
+.container h2 {
+  visibility: hidden;
+}
+
+.product-catalog h2 {
+  visibility: hidden;
+
+}
 
 .filters h2 {
-    visibility: hidden;
+  visibility: hidden;
 
 }
-    
-  
-  
-
-        
