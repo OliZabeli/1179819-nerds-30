@@ -57,6 +57,7 @@
   line-height: 24px;
   color: #283136;
   min-height: 100%;
+   
 }
 
 /* Container */
@@ -77,13 +78,13 @@
  
 }
 
-.main-navigation container {
+.main-navigation.container {
     display: flex;
+    flex-direction: row;
     background-color: #EEEEEE;
-       
+         
   }
-  
-  .user-navigation {
+    .user-navigation {
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -92,8 +93,7 @@
     text-transform: uppercase;
 
   }
-  
-
+ 
 .site-navigation {
   display: flex;
   margin: 0;
@@ -107,7 +107,7 @@
   list-style: none;
   color: #000000;
   margin-right: 45px;
-  justify-content: space-between;
+  justify-content: space-around;
   
 }
 
@@ -164,7 +164,7 @@ img {
   height: 50px;
   box-sizing: border-box;
   display: inline;
-  
+   
 }
 
 .services-product {
@@ -274,11 +274,13 @@ img {
 /* Index columns */
 
 .index-columns {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-
+  display: flex;
+  justify-content: space-between;
 }
 
+.about-us {
+  width: 399px;
+}
 
 
 /*about us*/
@@ -287,9 +289,12 @@ img {
 .about-us h2 {
   visibility: hidden;
 }
+.about-us-right {
+  width: 360px;
+}
 
-.about us-item b {
-
+.about-us-item b {
+  
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 500;
   font-size: 45px;
@@ -298,12 +303,26 @@ img {
 
 }
 
-.about us-item p {
+.about-us-item p {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #283136;
+}
+.about-us b {
+font-family: "Roboto", Arial, sans-serif;
+font-weight: 500;
+font-size: 45px;
+line-height: 45px;
+
+}
+
+.about-us-list b {
+font-family: "Roboto", Arial, sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
 }
 
 /*.quality*/
@@ -311,7 +330,7 @@ img {
 .quality-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 100px;
+  column-gap: 22px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -346,6 +365,9 @@ img {
   margin: 0;
   padding: 0;
   margin-bottom: 126px;
+  column-gap: 95px;
+  
+  
 
 }
 
@@ -356,7 +378,7 @@ img {
 /* Contacts */
 .contacts-phone {
   font-family: "Roboto", Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   color: #666666;
@@ -369,12 +391,19 @@ img {
 /* address */
 .address {
   font-family: "Roboto", Arial, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   color: #666666;
 
+}
+
+
+.footer-social b{
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
 }
 
 .footer-social {
@@ -389,15 +418,7 @@ img {
   list-style: none;
 }
 
-.social b {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 36px;
-  color: #000000;
-}
-
-.social p {
+.footer-social p {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: normal;
   font-size: 16px;

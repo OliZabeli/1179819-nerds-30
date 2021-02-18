@@ -14,7 +14,7 @@
 
 <body class="page-body">
   <header class="main-header">
-    <nav class="main-navigation container">
+    <nav class="main-navigation.container">
       <a class="main-header-logo">
         <img src="img/logo-nerdss.svg" width="159" height="65" alt="Логотип дизайн-студии">
       </a>
@@ -67,56 +67,61 @@
         </div>
       </section>
     </div>
-        <section class="about-us">
-      <h2>О нас</h2>
-      <div class="container">
-        <div class="about-us-left">
-          <b class="about us">Мы-маленькая, но гордая дизайн-студия из Краснодара.</b>
-          <p class="about us">Исповедуем принципы минимализма и чистоты. Ставим математический расчет
-            превыше креатива. Работаем непокладая рук, как роботы.</p>
-          <ul class="about us-list">
+    <div class="index-columns">
+      <section class="about-us">
+        <h2>О нас</h2>
+        <div class="container">
+          <b class="about-us">Мы-маленькая, но гордая дизайн-студия из Краснодара.</b>
+          <p class="about-us">Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+            превыше креатива. Работаем не покладая рук, как роботы.</p>
+          <ul class="about-us-list">
             <b>Выполняем заказы на разработку:</b>
-            <li class="about us-item">Веб-сайтов любой сложности</li>
-            <li class="about us-item">Мобильных приложений для IOS и Android</li>
-            <li class="about us-item">Слайдшоу и видео для корпоративных презентаций</li>
+            <li class="about-us-item">Веб-сайтов любой сложности</li>
+            <li class="about-us-item">Мобильных приложений для IOS и Android</li>
+            <li class="about-us-item">Слайдшоу и видео для корпоративных презентаций</li>
           </ul>
-        </div>
-        <div class="about-us-right">
-          <img src="img/img-nerds.jpg" width="360" height="208" alt="Логотип дизайн-студии">
-          <ul class="quality-list">
-            <b>С 2004 года любим точность во всем:</b>
-            <li class="quality-item">
-              <b class="quality">146%</b>
-              <p class="quality">Уровень самоотдачи</p>
-            </li>
-            <li class="quality-item">
-              <b class="quality">100%</b>
-              <p class="quality">Соблюдение сроков</p>
-            </li>
-            <li class="quality-item">
-              <b class="quality">50%</b>
-              <p class="quality">Минимальная предоплата</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+      </section>
+      <section class="about-us-right">
+        <h2>снова о нас</h2>
+        <img src="img/img-nerds.jpg" width="360" height="208" alt="Логотип дизайн-студии">
+        <b>С 2004 года любим точность во всем:</b>
+        <ul class="quality-list">
+          <li class="quality-item">
+            <b class="quality">146%</b>
+            <p class="quality">Уровень самоотдачи</p>
+          </li>
+          <li class="quality-item">
+            <b class="quality">100%</b>
+            <p class="quality">Соблюдение сроков</p>
+          </li>
+          <li class="quality-item">
+            <b class="quality">50%</b>
+            <p class="quality">Минимальная предоплата</p>
+          </li>
+        </ul>
+
+      </section>
+    </div>
+    <div class="container">
       <section class="partners">
-      <h2>Партнёры</h2>
-      <ul class="partners-list">
-        <li class="partners-item">
-          <a href="#"><img src="img/logo-academy.svg" alt="Логотип академии" width="199" height="67"></a>
-        </li>
-        <li>
-          <a href="#"><img src="img/logo-barbershop.svg" alt="Логотип барбершопа Бородинский" width="209"
-              height="90"></a>
-        </li>
-        <li>
-          <a href="#"><img src="img/logo-pink.svg" alt="Логотип студии pink" width="185" height="52"></a>
-        </li>
-        <li>
-          <a href="#"><img src="img/logo-mishka.svg" alt="Логотип mishka" width="173" height="84"></a>
-    </section>
+        <h2>Партнёры</h2>
+        <ul class="partners-list">
+          <li class="partners-item">
+            <a href="#"><img src="img/logo-academy.svg" alt="Логотип академии" width="199" height="67"></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/logo-barbershop.svg" alt="Логотип барбершопа Бородинский" width="209"
+                height="90"></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/logo-pink.svg" alt="Логотип студии pink" width="185" height="52"></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/logo-mishka.svg" alt="Логотип mishka" width="173" height="84"></a>
+          </li>
+        </ul>
+      </section>
+    </div>
   </main>
   <footer class="main-footer">
     <div class="container">
@@ -128,12 +133,13 @@
           <address class="address"> 191186 г. Санкт-Петербург, Б.Конюшенная, д. 19/8</address>
           <p>Тел.: <a class="contacts-phone">+7 (812) 666-02-66</a></p>
           <button class="button sent" type="submit">Напишите нам</button>
-        </div>
       </section>
-      <section class="footer-social">
-        <h2>Мы в соцсетях</h2>
-        <b class="footer-social">Давайте дружить-это выгодно!</b>
-        <p class="footer-social">скидка 10% для друзей из социальных сетей</p>
+    </div>
+    <section class="footer-social">
+      <h2>Мы в соцсетях</h2>
+      <b class="footer-social">Давайте дружить-это выгодно!</b>
+      <p class="footer-social">скидка 10% для друзей из социальных сетей</p>
+      <div class="footer-social-link">
         <ul>
           <li>
             <a class="social-button" href="#">Вконтакте</a>
@@ -145,7 +151,8 @@
             <a class="social-button" href=" #">Инстаграм</a>
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
     </div>
   </footer>
   <section class="modal modal-feedback">
