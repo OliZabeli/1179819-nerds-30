@@ -57,7 +57,7 @@
   line-height: 24px;
   color: #283136;
   min-height: 100%;
-   
+  box-sizing: border-box;
 }
 
 /* Container */
@@ -65,35 +65,35 @@
 .container {
   width: 1200px;
   margin: 0 auto;
-   
+
 }
 
 /* Logo */
 .main-header {
- 
+
   background-color: #EEEEEE;
   width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
- 
+
 }
 
 .main-navigation.container {
-    display: flex;
-    flex-direction: row;
-    background-color: #EEEEEE;
-         
-  }
-    .user-navigation {
-    font-family: "Roboto", Arial, sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-    color: #000000;
-    text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  background-color: #EEEEEE;
 
-  }
- 
+}
+
+.user-navigation {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+
+}
+
 .site-navigation {
   display: flex;
   margin: 0;
@@ -107,7 +107,7 @@
   list-style: none;
   color: #000000;
   margin-right: 45px;
-  justify-content: space-around;
+  justify-content: space-between;
   
 }
 
@@ -117,10 +117,7 @@ img {
 
 }
 
-
 /*description */
-
-
 .description h2 {
   visibility: hidden;
 }
@@ -128,7 +125,7 @@ img {
 .description {
   display: grid;
   background-color: #EEEEEE;
- 
+
 }
 
 .description p {
@@ -139,8 +136,7 @@ img {
   color: #283136;
   list-style: none;
   background-color: #EEEEEE;
-  
-  
+
 }
 
 .description b {
@@ -150,7 +146,7 @@ img {
   line-height: 55px;
   color: #000000;
   background-color: #EEEEEE;
-  
+
 }
 
 .design-web {
@@ -164,7 +160,7 @@ img {
   height: 50px;
   box-sizing: border-box;
   display: inline;
-   
+
 }
 
 .services-product {
@@ -183,7 +179,7 @@ img {
   text-align: center;
   text-decoration: none;
   border-radius: 3px;
-  box-sizing: border-box;
+  
 
 }
 
@@ -206,8 +202,6 @@ img {
   text-align: center;
   text-decoration: none;
   border-radius: 3px;
-
-
 }
 
 .sent {
@@ -218,6 +212,7 @@ img {
   text-align: inline;
   text-decoration: none;
   border-radius: 3px;
+  border: none;
 
 }
 
@@ -230,7 +225,7 @@ img {
   column-gap: 100px;
   margin: 0;
   padding: 5px 10px;
-  
+
 }
 
 .services-item b {
@@ -282,19 +277,17 @@ img {
   width: 399px;
 }
 
-
 /*about us*/
-
-
 .about-us h2 {
   visibility: hidden;
 }
+
 .about-us-right {
   width: 360px;
 }
 
 .about-us-item b {
-  
+
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 500;
   font-size: 45px;
@@ -310,19 +303,20 @@ img {
   font-weight: 400;
   color: #283136;
 }
+
 .about-us b {
-font-family: "Roboto", Arial, sans-serif;
-font-weight: 500;
-font-size: 45px;
-line-height: 45px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
 
 }
 
 .about-us-list b {
-font-family: "Roboto", Arial, sans-serif;
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 /*.quality*/
@@ -366,9 +360,6 @@ line-height: 24px;
   padding: 0;
   margin-bottom: 126px;
   column-gap: 95px;
-  
-  
-
 }
 
 .partners h2 {
@@ -395,11 +386,9 @@ line-height: 24px;
   font-size: 16px;
   line-height: 18px;
   color: #666666;
-
 }
 
-
-.footer-social b{
+.footer-social b {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -428,7 +417,6 @@ line-height: 24px;
 }
 
 /* Social button */
-
 /*catalog*/
 .page-body {
   min-height: 100%;
@@ -444,8 +432,56 @@ line-height: 24px;
   column-gap: 60px;
 }
 
-.main-navigation container {
+.page-title h1 {
+  margin-top: 192px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+.main-header .container {
+  width: 1200px;
   display: flex;
+  justify-content: space-between;
+
+}
+.site-navigation {
+  display: flex;
+  width: 437px;
+  margin-left: 202px;
+  margin-right: 45px;
+  
+}
+.user-navigation {
+  justify-content: space-between;
+  list-style: none;
+
+}
+
+.main-navigation {
+
+  flex-direction: row;
+  width: 700px;
+  height: 355px;
+  margin-top: 48px;
+
+}
+
+.catalog-category .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-category {
+  width: 260px;
+
+}
+
+.product-catalog {
+  width: 899px;
 }
 
 .catalog-list {
@@ -481,6 +517,8 @@ line-height: 24px;
   display: grid;
   grid-column: 1 / -1;
   justify-content: center;
+  padding-bottom: 108px;
+  
 }
 
 /* filters */
@@ -539,9 +577,8 @@ line-height: 24px;
   font-size: 18px;
   line-height: 30px;
   color: #283136;
-  ;
-}
 
+}
 
 .filter-option filter-checkbox {
   font-family: "Roboto", Arial, sans-serif;
@@ -556,7 +593,6 @@ line-height: 24px;
   font-size: 16px;
   line-height: 20px;
 }
-
 
 .filter-input-checkbox:hover+label,
 .filter-input-checkbox:focus+label {
@@ -582,17 +618,23 @@ line-height: 24px;
   color: #283136;
 }
 
+.information-site-sedona {
+  text-align: center;
+  color: #283136;
+  background: #EEEEEE;
+  padding-top: 26px;
+  padding-bottom: 44px;
+  width: 360px;
+  height: 231px;
+}
 
-
-
-.catalog-item-price a {
+.information-site b {
   font-family: "Roboto", Arial, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 18px;
-  color: #FFFFFF;
-  background: #FB565A;
-
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 12px;
 }
 
 .information-site {
@@ -602,16 +644,18 @@ line-height: 24px;
   line-height: 18px;
   color: #666666;
   background: #EEEEEE;
+  padding-bottom: 32px;
+  
 }
 
-.button catalog-item-price {
+.button.catalog-item-price {
   background-color: #FB565A;
   color: #EEEEEE;
   padding: 10px 20px;
   text-align: center;
+  border-radius: 3px;
+  border: none;  
 }
-
-
 /* Pagination */
 
 .pagination-list {

@@ -11,7 +11,7 @@
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
-
+<!--
 <body class="page-body inner-page">
   <header class="main-header">
     <nav class="main-navigation.container">
@@ -26,6 +26,25 @@
       </ul>
       <a class="list-item-navigation" href="#">Корзина</a>
     </nav>
+  </header>
+  -->
+
+<body class="page-body inner-page">
+  <header class="main-header">
+    <div class="container">
+      <nav class="main-navigation">
+        <a href="index.html"><img src="img/logo-nerdss.svg" width="159" height="65" alt="Логотип дизайн-студии"></a>
+        <ul class="site-navigation">
+          <li class="list-item-navigation"><a href="#">Студия</a></li>
+          <li class="list-item-navigation"><a href="#">Клиенты</a></li>
+          <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
+          <li class="list-item-navigation"><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <ul class="user-navigation">
+        <li class="list-item-navigation"><a href="#">Корзина</a></li>
+      </ul>
+    </div>
   </header>
   <main class="page-catalog container">
     <h1 class="page-title">Магазин готовых шаблонов</h1>
@@ -43,63 +62,65 @@
         <li class="sort-item"><a href="#">по названию</a></li>
       </ul>
     </div>
-    <section class="filters">
+    <section class="catalog-category">
       <h2>Фильтр товаров</h2>
-      <b class="grid">Сетка:</b>
-      <ul class="filters-list">
-        <li class="filter-option filter-radio">
-          <input class="filter-input-radio filter-input" type="radio" type="radio" name="grid" value="adaptive"
-            id="adaptive" checked>
-          <label for="adaptive">Адаптивная</label>
-        </li>
-        <li>
-          <input class="filter-input-radio filter-input" type="radio" name="grid" value="fix" id="fix">
-          <label for="fix">Фиксированная</label>
-        </li>
-        <li>
-          <input class="filter-input-radio filter-input" type="radio" name="grid" value="rubber" id="rubber">
-          <label for="rubber">Резиновая</label>
-        </li>
-      </ul>
-      <b class="features">Особенности:</b>
-      <ul class="filters-list">
-        <li class="filter-option filter-checkbox">
-          <input class="filter-input-checkbox filter-input" type="checkbox" name="slider" id="slider" checked>
-          <label for="slider">Слайдер</label>
-        </li>
-        <li class="filter-option filter-checkbox">
-          <input class="filter-input-checkbox filter-input" type="checkbox" name="advantages" id="advantages">
-          <label for="advantages">Блок преимуществ</label>
-        </li>
-        <li class="filter-option filter-checkbox">
-          <input class="filter-input-checkbox filter-input" type="checkbox" name="news" id="news" checked>
-          <label for="news">Новости</label>
-        </li>
-        <li class="filter-option filter-checkbox">
-          <input class="filter-input-checkbox filter-input" type="checkbox" name="gallery" id="gallery">
-          <label for="gallery">Галерея</label>
-        </li>
-        <li class="filter-option filter-checkbox">
-          <input class="filter-input-checkbox filter-input" type="checkbox" name="basket" id="basket">
-          <label for="basket">Корзина</label>
-        </li>
-      </ul>
-      <button type="submit" class="filter-button button">Показать</button>
-      </form>
+      <div class="container">
+        <div class="filters">
+          <b class="grid">Сетка:</b>
+          <ul class="filters-list">
+            <li class="filter-option filter-radio">
+              <input class="filter-input-radio filter-input" type="radio" type="radio" name="grid" value="adaptive"
+                id="adaptive" checked>
+              <label for="adaptive">Адаптивная</label>
+            </li>
+            <li>
+              <input class="filter-input-radio filter-input" type="radio" name="grid" value="fix" id="fix">
+              <label for="fix">Фиксированная</label>
+            </li>
+            <li>
+              <input class="filter-input-radio filter-input" type="radio" name="grid" value="rubber" id="rubber">
+              <label for="rubber">Резиновая</label>
+            </li>
+          </ul>
+          <b class="features">Особенности:</b>
+          <ul class="filters-list">
+            <li class="filter-option filter-checkbox">
+              <input class="filter-input-checkbox filter-input" type="checkbox" name="slider" id="slider" checked>
+              <label for="slider">Слайдер</label>
+            </li>
+            <li class="filter-option filter-checkbox">
+              <input class="filter-input-checkbox filter-input" type="checkbox" name="advantages" id="advantages">
+              <label for="advantages">Блок преимуществ</label>
+            </li>
+            <li class="filter-option filter-checkbox">
+              <input class="filter-input-checkbox filter-input" type="checkbox" name="news" id="news" checked>
+              <label for="news">Новости</label>
+            </li>
+            <li class="filter-option filter-checkbox">
+              <input class="filter-input-checkbox filter-input" type="checkbox" name="gallery" id="gallery">
+              <label for="gallery">Галерея</label>
+            </li>
+            <li class="filter-option filter-checkbox">
+              <input class="filter-input-checkbox filter-input" type="checkbox" name="basket" id="basket">
+              <label for="basket">Корзина</label>
+            </li>
+          </ul>
+          <button type="submit" class="filter-button button">Показать</button>
+          </form>
+        </div>
+      </div>
     </section>
     <section class="product-catalog">
       <h2>Каталог шаблонов</h2>
-
       <ul class="catalog-list">
         <li class="catalog-item">
-          <img src="img/img-sedona.jpg" width="358" height="578" alt="шаблон седона">
-          <div>
-            <b>sedona</b>
+          <img src="img/img-sedona.jpg" width="359" height="347" alt="шаблон седона">
+          <div class="information-site-sedona">
+            <b>SEDONA</b>
             <p class="information-site">Информационный сайт для туристов</p>
-            <a href="#" class="button catalog-item-price">9900 р</a>
+            <button type="submit" class="button catalog-item-price">9900 р</button>
           </div>
         </li>
-
         <li class="catalog-item">
           <img src="img/img-pink.jpg" width="358" height="578" alt="шаблон pink">
         </li>
@@ -107,14 +128,13 @@
           <img src="img/img-barbershop.jpg" width="358" height="578" alt="шаблон барбершоп">
         </li>
         <li class="catalog-item">
-          <img src="img/img-mishka.jpg" width="358" height="578" alt="шаблон mishka">
-        </li>
-        <li>
-        <li class="catalog-item"></li>
-        <img src="img/img-aplus.jpg" width="358" height="578" alt="шаблон aplus">
+          <img src="img/img-mishka.jpg" width="359" height="578" alt="шаблон mishka">
         </li>
         <li class="catalog-item">
-          <img src="img/img-kvast.jpg" width="358" height="578" alt="шаблон kvas">
+          <img src="img/img-aplus.jpg" width="359" height="578" alt="шаблон aplus">
+        </li>
+        <li class="catalog-item">
+          <img src="img/img-kvast.jpg" width="359" height="578" alt="шаблон kvas">
         </li>
       </ul>
       <ul class="pagination-list">
@@ -131,7 +151,6 @@
           <a href="#">Следующая</a>
         </li>
       </ul>
-
     </section>
   </main>
   <footer class="main-footer">
