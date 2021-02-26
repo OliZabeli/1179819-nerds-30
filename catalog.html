@@ -11,45 +11,26 @@
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
-<!--
-<body class="page-body inner-page">
-  <header class="main-header">
-    <nav class="main-navigation.container">
-      <a class="main-header-logo" href="index.html">
-        <img src="img/logo-nerdss.svg" width="159" height="65" alt="Логотип дизайн-студии">
-      </a>
-      <ul class="site-navigation">
-        <li class="list-item-navigation"><a href="#">Студия</a></li>
-        <li class="list-item-navigation"><a href="#">Клиенты</a></li>
-        <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
-        <li class="list-item-navigation"><a href="#">Контакты</a></li>
-      </ul>
-      <a class="list-item-navigation" href="#">Корзина</a>
-    </nav>
-  </header>
-  -->
 
-<body class="page-body inner-page">
+<body class="page-body">
   <header class="main-header">
-    <div class="container">
-      <nav class="main-navigation">
-        <a href="index.html"><img src="img/logo-nerdss.svg" width="159" height="65" alt="Логотип дизайн-студии"></a>
+    <nav class="container">
+      <a class="main-header-logo">
+        <a href="index.html"><img src="img/logo-nerdss.svg" width="159" height="65" alt="Логотип дизайн-студии">
+        </a>
         <ul class="site-navigation">
           <li class="list-item-navigation"><a href="#">Студия</a></li>
           <li class="list-item-navigation"><a href="#">Клиенты</a></li>
-          <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
+          <li class="list-item-navigation"><a href="catalog.html">Магазин</a></li>
           <li class="list-item-navigation"><a href="#">Контакты</a></li>
         </ul>
-      </nav>
-      <div class="user-navigation">
         <a class="user-navigation" href="#">Корзина</a>
-      </div>
-    </div>
+    </nav>
   </header>
   <main class="page-catalog container">
     <h1 class="page-title">Магазин готовых шаблонов</h1>
     <section class="filters">
-      <h2>Фильтр шаблонов</h2>
+      <h2 class="visually-hidden">Фильтр шаблонов</h2>
       <form method="get" action="https://echo.htmlacademy.ru">
         <b class="cost">Стоимость:</b>
         <!-- ползунок -->
@@ -63,7 +44,7 @@
       </ul>
     </div>
     <section class="catalog-category">
-      <h2>Фильтр товаров</h2>
+      <h2 class="visually-hidden">Фильтр товаров</h2>
       <div class="container">
         <div class="filters">
           <b class="grid">Сетка:</b>
@@ -111,7 +92,7 @@
       </div>
     </section>
     <section class="product-catalog">
-      <h2>Каталог шаблонов</h2>
+      <h2 class="visually-hidden">Каталог шаблонов</h2>
       <ul class="catalog-list">
         <li class="catalog-item">
           <img src="img/img-sedona.jpg" width="359" height="347" alt="шаблон седона">
@@ -157,7 +138,7 @@
   <footer class="main-footer">
     <div class="container">
       <section class="contacts">
-        <h2>Контакты</h2>
+        <h2 class="visually-hidden">Контакты</h2>
         <!-- Здесь будет карта -->
         <div class="information">
           <b>NЁRDS DESIGN STUDIO</b>
@@ -167,7 +148,7 @@
         </div>
       </section>
       <section class="footer-social">
-        <h2>Мы в соцсетях</h2>
+        <h2 class="visually-hidden">Мы в соцсетях</h2>
         <b class="footer-social">Давайте дружить-это выгодно!</b>
         <p class="footer-social">скидка 10% для друзей из социальных сетей</p>
         <ul>
@@ -186,7 +167,7 @@
   </footer>
   <section class="modal modal-feedback">
     <div class="container">
-      <h2>Напишите нам</h2>
+      <h2 class="visually-hidden">Напишите нам</h2>
       <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
         <p class="feedback-item"></p>
         <label for="feedback-name">Ваше имя</label>
