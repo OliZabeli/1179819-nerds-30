@@ -28,43 +28,43 @@
     </nav>
   </header>
   <main>
-    <div class="container">
-      <section class="description">
-        <h2 class="visually-hidden">Совсем немного о нас</h2>
-        <b class="description">Долго, дорого, скрупулёзно.</b>
-        <p class="description">Математически выверенный дизайн
-          для вашего сайта или приложения.</p>
-        <a href="#" class="button design-web">Узнать больше</a>
-      </section>
-    </div>
-    <div class="index-columns">
+    <section class="description">
       <div class="container">
-        <h2 class="visually-hidden">Услуги</h2>
-        <ul class="services-list">
-          <li class="services-item">
-            <img src="img/services-first.png" width="300" height="146" alt="первая услуга">
-            <b class="services-product">ВЕБ-САЙТЫ</b>
-            <p class="services-item">Мир никогда не будет прежним
-              после того как увидит ваш сайт!</p>
-            <a href="#" class="button order-web">Заказать</a>
-          </li>
-          <li class="services-item">
-            <img src="img/services-second.png" width="300" height="146" alt="вторая услуга">
-            <b class="services-product">ПРИЛОЖЕНИЯ</b>
-            <p class="services-item">Покорите топ-10 приложений
-              в App-store и Google play</p>
-            <a href="#" class="button order-app">Заказать</a>
-          </li>
-          <li class="services-item">
-            <img src="img/services-three.png" width="300" height="146" alt="третья услуга">
-            <b class="services-product">ПРЕЗЕНТАЦИИ</b>
-            <p class="services-item">Вы даже не подозреваете,насколько вы изумительны!</p>
-            <a href="#" class="button order-presentation">Заказать</a>
-          </li>
-        </ul>
-        </section>
+        <h2 class="visually-hidden">Совсем немного о нас</h2>
+        <b class="description-b">Долго, дорого, скрупулёзно.</b>
+        <p class="description-p">Математически выверенный дизайн для вашего сайта или приложения.</p>
+        <a href="#" class="button design-web">Узнать больше</a>
       </div>
-    </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <div class="index-columns">
+          <h2 class="visually-hidden">Услуги</h2>
+          <ul class="services-list">
+            <li class="services-item">
+              <img src="img/services-first.png" width="300" height="146" alt="первая услуга">
+              <b class="services-product">ВЕБ-САЙТЫ</b>
+              <p class="services-item">Мир никогда не будет прежним
+                после того как увидит ваш сайт!</p>
+              <a href="#" class="button order-web">Заказать</a>
+            </li>
+            <li class="services-item">
+              <img src="img/services-second.png" width="300" height="146" alt="вторая услуга">
+              <b class="services-product">ПРИЛОЖЕНИЯ</b>
+              <p class="services-item">Покорите топ-10 приложений
+                в App-store и Google play</p>
+              <a href="#" class="button order-app">Заказать</a>
+            </li>
+            <li class="services-item">
+              <img src="img/services-three.png" width="300" height="146" alt="третья услуга">
+              <b class="services-product">ПРЕЗЕНТАЦИИ</b>
+              <p class="services-item">Вы даже не подозреваете,насколько вы изумительны!</p>
+              <a href="#" class="button order-presentation">Заказать</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
     <div class="container">
       <div class="index-columns">
         <section class="about-us">
@@ -99,31 +99,30 @@
           </ul>
         </section>
       </div>
-    </div>
-    <div class="container">
       <section class="partners">
-        <h2 class="visually-hidden">Партнёры</h2>
-        <ul class="partners-list">
-          <li class="partners-item">
-            <a href="#"><img src="img/logo-academy.svg" alt="Логотип академии" width="199" height="67"></a>
-          </li>
-          <li>
-            <a href="#"><img src="img/logo-barbershop.svg" alt="Логотип барбершопа Бородинский" width="209"
-                height="90"></a>
-          </li>
-          <li>
-            <a href="#"><img src="img/logo-pink.svg" alt="Логотип студии pink" width="185" height="52"></a>
-          </li>
-          <li>
-            <a href="#"><img src="img/logo-mishka.svg" alt="Логотип mishka" width="173" height="84"></a>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="visually-hidden">Партнёры</h2>
+          <ul class="partners-list">
+            <li class="partners-item">
+              <a href="#"><img src="img/logo-academy.svg" alt="Логотип академии" width="199" height="67"></a>
+            </li>
+            <li class="partners-item">
+              <a href="#"><img src="img/logo-barbershop.svg" alt="Логотип барбершопа Бородинский" width="209"
+                  height="90"></a>
+            </li>
+            <li class="partners-item">
+              <a href="#"><img src="img/logo-pink.svg" alt="Логотип студии pink" width="185" height="52"></a>
+            </li>
+            <li class="partners-item">
+              <a href="#"><img src="img/logo-mishka.svg" alt="Логотип mishka" width="173" height="84"></a>
+            </li>
+          </ul>
+        </div>
       </section>
-    </div>
   </main>
   <footer class="main-footer">
-    <div class="container">
-      <section class="contacts">
+    <section class="contacts">
+      <div class="container">
         <h2 class="visually-hidden">Контакты</h2>
         <!-- Здесь будет карта -->
         <div class="information">
@@ -132,38 +131,64 @@
           <p>Тел.: <a class="contacts-phone">+7 (812) 666-02-66</a></p>
           <button class="button sent" type="submit">Напишите нам</button>
         </div>
-      </section>
-      <section class="footer-social">
+      </div>
+    </section>
+    <section class="footer-social">
+      <div class="container">
         <h2 class="visually-hidden">Мы в соцсетях</h2>
-        <b class="footer-social">Давайте дружить-это выгодно!</b>
-        <p class="footer-social">скидка 10% для друзей из социальных сетей</p>
-        <ul>
-          <li>
-            <a class="social-button" href="#">Вконтакте</a>
+        <ul class="social-networks">
+          <li class="social-networks-item">
+            <a class="visually-hidden" href=" #">Вконтакте</a>
+            <svg width="79" height="79" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M39.6616 0.211598C61.2692 0.211598 78.7856 17.7282 78.7856 39.336C78.7856 60.9432 61.2692 78.4597 39.6616 78.4597C18.0541 78.4597 0.537542 60.9432 0.537542 39.336C0.537542 17.7282 18.0541 0.211598 39.6616 0.211598Z"
+                fill="white" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M39.6616 0.211598C61.2692 0.211598 78.7856 17.7282 78.7856 39.336C78.7856 60.9432 61.2692 78.4597 39.6616 78.4597C18.0541 78.4597 0.537542 60.9432 0.537542 39.336C0.537542 17.7282 18.0541 0.211598 39.6616 0.211598Z"
+                fill="#E1E1E1" />
+            </svg>
           </li>
-          <li>
-            <a class="social-button" href=" #">Фейсбук</a>
+          <li class="social-networks-item">
+            <a class="visually-hidden" href=" #">Фейсбук</a>
+            <svg width="79" height="79" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M39.6616 0.211598C61.2692 0.211598 78.7856 17.7282 78.7856 39.336C78.7856 60.9432 61.2692 78.4597 39.6616 78.4597C18.0541 78.4597 0.537542 60.9432 0.537542 39.336C0.537542 17.7282 18.0541 0.211598 39.6616 0.211598Z"
+                fill="white" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M39.6616 0.211598C61.2692 0.211598 78.7856 17.7282 78.7856 39.336C78.7856 60.9432 61.2692 78.4597 39.6616 78.4597C18.0541 78.4597 0.537542 60.9432 0.537542 39.336C0.537542 17.7282 18.0541 0.211598 39.6616 0.211598Z"
+                fill="#E1E1E1" />
+            </svg>
           </li>
-          <li>
-            <a class="social-button" href=" #">Инстаграм</a>
+          <li class="social-networks-item">
+            <a class="visually-hidden" href=" #">Инстаграм</a>
+            <svg width="79" height="79" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M39.6616 0.211598C61.2692 0.211598 78.7856 17.7282 78.7856 39.336C78.7856 60.9432 61.2692 78.4597 39.6616 78.4597C18.0541 78.4597 0.537542 60.9432 0.537542 39.336C0.537542 17.7282 18.0541 0.211598 39.6616 0.211598Z"
+                fill="white" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M39.6616 0.211598C61.2692 0.211598 78.7856 17.7282 78.7856 39.336C78.7856 60.9432 61.2692 78.4597 39.6616 78.4597C18.0541 78.4597 0.537542 60.9432 0.537542 39.336C0.537542 17.7282 18.0541 0.211598 39.6616 0.211598Z"
+                fill="#E1E1E1" />
+            </svg>
           </li>
         </ul>
-    </div>
+        <b class="footer-social-p">Давайте дружить-это выгодно!</b>
+        <p class="footer-social-b">скидка 10% для друзей из социальных сетей</p>
+      </div>
     </section>
   </footer>
-  <section class="modal modal-feedback">
+  <section class="feedback">
     <div class="container">
       <h2>Напишите нам</h2>
-      <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
-        <p class="feedback-name">
-        <label for="feedback-name">Ваше имя</label>
-        <input id="feedback-name" type="text" name="name" placeholder="Имя Фамилия">
+      <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+        <p class="feedback-item">
+          <label for="feedback-name">Ваше имя</label>
+          <input id="feedback-name" type="text" name="name" placeholder="Имя Фамилия">
         </p>
-        <p class="feedback-email">
+        <p class="feedback-item">
           <label for="feedback-email">Ваш email</label>
           <input id="appointment-phone" type="tel" name="email" placeholder="email@example.com">
         </p>
-        <p class="feedback-text">
+        <p class="feedback-item">
           <label for="feedback-text">Текст письма</label>
           <input id="feedback-text" type="text" name="Text" placeholder="в свободной форме">
         </p>
