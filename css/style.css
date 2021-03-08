@@ -529,11 +529,13 @@ img {
 .footer-social {
   text-align: center;
   align-items: center;
+  display: flex;
 
 }
 
 .footer-social ul {
   list-style: none;
+  
 }
 
 .footer-social-p {
@@ -1038,6 +1040,8 @@ body {
   position: absolute;
   width: 960px;
   height: 590px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
 }
 .feedback {
   display: flex;
@@ -1077,9 +1081,15 @@ body {
   border: 2px solid var(--basic-black);
   box-sizing: border-box;
   padding: 15px;
-
 }
 
+.modal-close {
+position: absolute;
+left: 0.04%;
+right: -0.04%;
+top: 0.04%;
+bottom: -0.04%;
+background: rgba(251, 86, 90, 0.3);
 /**
 
 
